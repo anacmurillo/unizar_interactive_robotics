@@ -134,16 +134,15 @@ class Object_Cand():
         segments_fz = slic(Sup, n_segments=100, compactness=10, sigma=2)
         segments_fz[Mask2<1] = -1
         segments_fz += 2
-
+        w_t,h_t,d = Mask_1.shape
         #Obtain the contours for the objects in the top camera and proyect them into the frontal one
         #  and obtain the BB with the superpixels
         Contornos=[]
-        total = sum(sum(Mask_1[:, :, 0]))
         (cnts, _) = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
         for cnt in cnts:
-            if cv2.contourArea(cnt) < 100 or cv2.contourArea(cnt) >= 0.5*total:
-                continue
             x, y, w, h = cv2.boundingRect(cnt)
+            if cv2.contourArea(cnt) < 100 or w >= 0.5*w_t or h >= 0.5*h_t:
+                continue
             r = self.Homo_get(x_ini +x,y_ini + y-20)
             p1 = (max(min(int(r[0]),639),0),max(min(int(r[1])-200,279),0))
             r = self.Homo_get(x_ini + x+w, y_ini + y +h-10)
