@@ -11,7 +11,7 @@ class D_calculator():
             if i == 'ORB':
                 descrip, keypoints =self.Descriptor.ComputeORB(RGB,Depth)
             elif i == 'HC':
-                descrip, _ = self.Descriptor.ComputeHC(RGB, Depth)
+                descrip, _ = self.Descriptor.ComputeHC_deprecated(RGB, Depth)
             elif i == 'Surf':
                 descrip, keypoints = self.Descriptor.ComputeSURF(RGB, Depth)
             elif i == 'BRISK':

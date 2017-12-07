@@ -43,7 +43,7 @@ class Show_Seg:
         masked_data[:,0:r1] = 0
         masked_data[:,r2:640] = 0
 
-        R = Rect.Rect((r1, c1), (r2, c2))
+        R = Rect.Rect(Rect.Point(r1, c1), Rect.Point(r2, c2))
         C = R.center()
         #return the patch and the rect
         return masked_data[ c1 : c2 , r1 : r2 ],R,C

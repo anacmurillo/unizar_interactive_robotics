@@ -35,9 +35,8 @@ class Point_Seg:
         return (int(y2),int(x2))
 
     def obtain_candidate(self,Point_ini,Angle,isTop):
-
         #Set the initial position at a distance from the center of the hand
-        Ini = self.PointatD(Point_ini, Angle, 20)
+        Ini = self.PointatD(Point_ini, math.radians(Angle), 20)
         L = []
         #Calculate the discrete points of the line
         for d in xrange(20,100,5):

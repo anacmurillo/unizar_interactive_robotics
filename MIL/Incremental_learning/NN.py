@@ -32,12 +32,13 @@ class NN():
         for i in xrange(len(point1)):
             p = np.float32(point1[i])
             point1_sub = point1[:]
-            weight_sub = weight[:]
+            #weight_sub = weight[:]
 
             if self.weight_flag:
-                weight_sub.pop(i)
+                pass
+                #weight_sub.pop(i)
             point1_sub.pop(i)
-            distance = self.distance(np.float32(point1_sub),weight_sub,p)
+            distance = self.distance(np.float32(point1_sub),None,p)
             if distance < distance_global :
                 distance_global=distance
                 index = i
@@ -196,7 +197,7 @@ class NN():
                     self.classes[i].append(des)
                     if self.weight_flag:
                         self.weight_treatment(i, None, "reorp1")
-                    out,d,value,index = self.reorganize(self.classes[i],self.weights[i])
+                    out,d,value,index = self.reorganize(self.classes[i],None)
                     if self.weight_flag:
                         self.weight_treatment(i,index,"reorp2",value=value)
                     self.classes[i] = out
@@ -219,7 +220,7 @@ class NN():
             label = 0
             aux = None
             for i in xrange(len(self.classes)):
-                d = self.distance(np.float32(self.classes[i]),self.weights[i],np.float32(des))
+                d = self.distance(np.float32(self.classes[i]),None,np.float32(des))
                 if Number == 1:
                     print d.__str__()+" "+self.labels[i]
                 if distance_max > d:

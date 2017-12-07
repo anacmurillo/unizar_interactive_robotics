@@ -27,7 +27,6 @@ class Mutiple_Interaction:
 
         for Scena in FM.Images:
             dep_front = Scena.Depth_front.copy()
-            t = time.clock()
             # Masking Part
             mask = self.Masquerade.Mask(Scena.Mask_front, dep_front)
             Out = self.Interaction.Class_One_Image(Scena.RGB_front, Scena.Depth_front, mask, None)
@@ -42,8 +41,6 @@ class Mutiple_Interaction:
                 Scena.Values["Interaction_posibility"] = p
                 Scena.Values["Hand_Angle"] = Hand_angle
                 self.Evaluator.add_data(Class,p)
-            t2 = time.clock()-t
-            print "Tiempo : "+t2.__str__()
         Result_n, Result_p, Class_p, Class_n, Total =self.Evaluator.calculate_output()
         FM.Values["Class_N"]=Class_n
         FM.Values["Result_N"]= Result_n

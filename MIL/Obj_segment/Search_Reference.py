@@ -12,6 +12,8 @@ def Search_Ref(FM):
                 continue
             p_ini = Im.Values["Hand_Pos"]
             angle = Im.Values["Hand_Angle"]
+            if p_ini is None or angle is None:
+                continue
             cand = P_seg.obtain_candidate(p_ini,angle,False)
             for c in cand:
                 L.append(FM.Objects.index(c))
@@ -38,7 +40,7 @@ def Search_Ref(FM):
                 patch,rec,pos= S_seg.obtain_patch(Image,Depth,dep,center,angle)
                 C = Candidate.Candidate(None, None, rec, pos, patch)
                 List.append(C)
-        FM.candidate_patch = List
+        FM.Candidate_patch = List
     else: #Speak
         pass
         #Sp_seg = Speak_Seg.Speak_Seg()
