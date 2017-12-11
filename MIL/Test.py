@@ -10,6 +10,7 @@ from Descriptors.Compute_Descriptors import *
 from Incremental_learning.NN import *
 import cPickle
 import gzip
+import json
 
 Time_ini = time.time()
 arg = sys.argv
@@ -26,7 +27,7 @@ action = arg[2]
 print user
 print action
 existe = False
-if not os.path.exists(user+"_"+action+".gpz"):
+if not os.path.exists("Data/"+user+"_"+action+".gpz"):
     f_speech = open(path + "/" + user + "/" + action + "/speech.txt",'r')
     f_front = open(path + "/" + user + "/" + action + "/k1" + "/List.txt", 'r')
     f_top = open(path + "/" + user + "/" + action + "/k2" + "/List.txt", 'r')
@@ -57,9 +58,12 @@ if not os.path.exists(user+"_"+action+".gpz"):
         Mask_top = cv2.imread(path + "/" + user + "/" + action + "/k2" + "/MTA/" + file1_t)
         files = [path + "/" + user + "/" + action + "/k1" + "/RGB/"+file1,path + "/" + user + "/" + action + "/k1" + "/Depth/"+file2,path + "/" + user + "/" + action + "/k1" + "/MTA/"+file1,
         path + "/" + user + "/" + action + "/k2" + "/RGB/" + file1_t,path + "/" + user + "/" + action + "/k2" + "/Depth/" + file2_t,path + "/" + user + "/" + action + "/k2" + "/MTA/" + file1_t]
-
         Scen = Scene(RGB_front,Depth_front,Mask_front,RGB_top,Depth_top,Mask_top,files)
         Scen.Values["Interaction_GT"] = Label
+        if os.path.exists(path + "/" + user + "/" + action + "/k1" + "/skeleton/Skeleton"+i.__str__()+".json"):
+            skel = open(path + "/" + user + "/" + action + "/k1" + "/skeleton/Skeleton"+i.__str__()+".json", 'r')
+            skeleton = json.load(skel)
+            Scen.Skeleton=skeleton
         Data.append(Scen)
     FM.Images = Data
 
@@ -71,17 +75,23 @@ if not os.path.exists(user+"_"+action+".gpz"):
     if FM.Speech[0] != 'The':
         I_front.Calculate_Interaction(FM)
         Search_Reference.Search_Ref(FM)
-        for candidate in FM.Candidate_patch:
-            candidate.Label = FM.Speech[1]
-            candidate.Descriptors=D.calculate_D(candidate.patch,None,["HC","ORB"])
+        if FM.Candidate_patch is None:
+            files = gzip.open("Data/" + user + "_" + action + ".gpz", 'w')
+            cPickle.dump(FM, files, -1)
+            files.close()
+            exit()
+        else:
+            for candidate in FM.Candidate_patch:
+                candidate.Label = FM.Speech[1]
+                candidate.Descriptors=D.calculate_D(candidate.patch,None,["HC","ORB"])
     else:
         FM.Values["Class_N"]='Speak'
-    files = gzip.open(user + "_" + action + ".gpz", 'w')
+    files = gzip.open("Data/"+user + "_" + action + ".gpz", 'w')
     cPickle.dump(FM, files, -1)
     files.close()
 else:
     existe=True
-    files = gzip.open(user + "_" + action + ".gpz", 'r')
+    files = gzip.open("Data/"+user + "_" + action + ".gpz", 'r')
     FM= cPickle.load(files)
     files.close()
 for candidate in FM.Candidate_patch:
@@ -113,7 +123,7 @@ for candidate in FM.Candidate_patch:
             elif i == 1:
                 print "Well, Errare humanum est. Me lo guardo para el futuro, cuando Skynet conquiste todo."
 Incremental.dump("RR.pkl")
-files = gzip.open(user+"_"+action+".gpz",'w')
+files = gzip.open("Data/"+user+"_"+action+".gpz",'w')
 cPickle.dump(FM,files,-1)
 files.close()
 T2 = time.time() - Time_ini

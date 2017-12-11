@@ -10,7 +10,6 @@ import random
 import math
 import Obj_segment.Rect
 import Candidate
-
 class Object_Cand():
 
     def __init__(self):

@@ -29,7 +29,7 @@ class Mutiple_Interaction:
             dep_front = Scena.Depth_front.copy()
             # Masking Part
             mask = self.Masquerade.Mask(Scena.Mask_front, dep_front)
-            Out = self.Interaction.Class_One_Image(Scena.RGB_front, Scena.Depth_front, mask, None)
+            Out = self.Interaction.Class_One_Image(Scena.RGB_front, Scena.Depth_front, mask, Scena.Skeleton)
             Scena.Skeleton = self.Interaction.prvs_skel
             Scena.Values["Canvas"] = self.Interaction.prvs_canvas
             if Out is not None:
