@@ -1,1 +1,1 @@
-__all__ = ["BoW", "Compute_Descriptors", "Descriptors"]
+__all__ = ["BoW", "Compute_Descriptors", "Descriptors","Alexnet"]

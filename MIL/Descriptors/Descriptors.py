@@ -17,14 +17,10 @@ class Descriptors:
         img1 = cv2.cvtColor(final,cv2.COLOR_BGR2GRAY)
         sift = cv2.SIFT()
         kp, descritors = sift.detectAndCompute(img1,None)
-        self.n += 1
-        if len(kp) == 0:
-            self.num += 1
-            return np.zeros((1, 128), np.float32), final
+        if len(kp) < 2:
+            return None,None
             # apply the Hellinger kernel by first L1-normalizing and taking the
             # square-root
-        descritors /= (descritors.sum(axis=1, keepdims=True) + self.eps)
-        descritors = np.sqrt(descritors)
         return descritors, kp
 
     def ComputeSURF(self,RGB,Depth):

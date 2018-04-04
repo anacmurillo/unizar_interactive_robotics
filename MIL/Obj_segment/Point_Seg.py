@@ -27,23 +27,30 @@ class Point_Seg:
         b3 = sign(pt, T[2], T[0]) < 0.0
         return ((b1 == b2) and (b2 == b3))
 
-    def PointatD(self,P_ini,theta,d):
-        x2 = P_ini[1] + d * np.sin(theta)
-        y2 = P_ini[0] + d * np.cos(theta)
-        if (y2 >640) or (x2>480):
+    def PointatD2(self,P_ini,theta,d):
+        x2 = P_ini[0] + d * np.sin(theta)
+        y2 = P_ini[1] + d * np.cos(theta)
+        if (y2 >480) or (x2>640):
             return None
-        return (int(y2),int(x2))
+        return (int(x2),int(y2))
 
-    def obtain_candidate(self,Point_ini,Angle,isTop):
+    def PointatD(self,P_ini, theta, d):
+        x2 = P_ini[0] + d * np.sin(theta)
+        y2 = P_ini[1] + d * np.cos(theta)
+        if (y2 >480) or (x2>640):
+            return None
+        return (int(x2), int(y2))
+
+    def obtain_candidate(self,Point_ini,Angle,isTop,Image=None):
         #Set the initial position at a distance from the center of the hand
-        Ini = self.PointatD(Point_ini, math.radians(Angle), 20)
+        # Ini = (Point_ini[1],Point_ini[0]) # self.PointatD(Point_ini, math.radians(Angle), 1)
         L = []
         #Calculate the discrete points of the line
-        for d in xrange(20,100,5):
-            P = self.PointatD(Ini,Angle,d)
+        for d in xrange(0,500,5):
+            P = self.PointatD(Point_ini,math.radians(Angle),d)
             if P is None:
-                continue
-
+                break
+            # cv2.circle(Image,P,1,(255,255,0),1)
             #Search for the first candidate that contains part of the line
             for i in self.candidates:
                 if i is None:
@@ -52,6 +59,12 @@ class Point_Seg:
                     if Rect.contains(i.BB_top, P):
                         L.append(i)
                 else:
+                    # print i.BB_front
+                    # print P
+                    # cv2.imshow("Image", i.patch)
+                    # cv2.waitKey(4000)
                     if Rect.contains(i.BB_front, P):
+                        # print "Elegido"
                         L.append(i)
-        return np.unique(L)
+
+        return L

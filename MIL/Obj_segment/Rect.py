@@ -1,3 +1,4 @@
+import math
 class Point(object):
     def __init__(self, x, y):
         self.x = x
@@ -24,6 +25,14 @@ class Rect(object):
 
     def two_point(self):
         return (self.left,self.top),(self.right,self.bottom)
+
+    def four_p(self):
+        return self.left,self.top,self.size(),self.right,self.bottom
+
+    def size(self):
+        return (self.right-self.left)*(self.bottom-self.top)
+    def d_diag(self,i):
+        return math.sqrt(math.pow(self.right-self.left,2)+pow(self.bottom-self.top,2))/i
 
     def Fixed(self):
         ratio = max(self.right-self.left,self.top-self.bottom)
@@ -52,4 +61,4 @@ def overlap(r1, r2):
     return range_overlap(r1.left, r1.right, r2.left, r2.right) and range_overlap(r1.bottom, r1.top, r2.bottom, r2.top)
 
 def contains(r1,p):
-    return r1.left<=p[0] and r1.right>=p[0] and r1.top<=p[1] and r1.bottom >=p[1]
+    return r1.left<=p[0]<=r1.right and r1.top<=p[1]<=r1.bottom

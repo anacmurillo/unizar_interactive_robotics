@@ -19,6 +19,9 @@ class Evaluator:
             Output_n[Clas] = Output_n[Clas]+ 1
             Output_p[Clas] = Output_p[Clas]+ P
         for n in xrange(len(self.Classes)):
+            if Output_n[n] == 0:
+                Output_p[n] = 0
+                continue
             Output_p[n] = Output_p[n]/Output_n[n]
         Result_p = Output_p.index(max(Output_p))
         Result_n = Output_n.index(max(Output_n))
