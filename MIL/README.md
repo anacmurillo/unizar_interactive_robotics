@@ -25,7 +25,8 @@ Example of Data input:
 	......
 
 [1] *Realtime Multi-Person Pose Estimation*. By Zhe Cao, Tomas Simon, Shih-En Wei, Yaser Sheikh. https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation
-[2] *https://github.com/matterport/Mask_RCNN
+
+[2] https://github.com/matterport/Mask_RCNN
 
 ## Launch instructions:
 
