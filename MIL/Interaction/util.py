@@ -1,7 +1,7 @@
 import numpy as np
 from cStringIO import StringIO
 import PIL.Image
-from IPython.display import Image, display
+#from IPython.display import Image, display
 
 def showBGRimage(a, fmt='jpeg'):
     a = np.uint8(np.clip(a, 0, 255))

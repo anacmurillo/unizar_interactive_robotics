@@ -3,7 +3,7 @@ import numpy as np
 
 class Model():
 
-    def __init__(self,type,values,info,patch,U):
+    def __init__(self,type,values,info,patch,U= None):
         self.type = type
         if type == 'hist':
             self.values = np.float32(values)
@@ -25,7 +25,7 @@ class Model():
             p = []
             min_d = 9999999999
             for example in clas:
-                dist = cv2.compareHist(example.values, self.values, cv2.cv.CV_COMP_BHATTACHARYYA)
+                dist = cv2.compareHist(example.values, self.values, cv2.HISTCMP_BHATTACHARYYA)
                 if Flag:
                     p.append(dist)
                 else:

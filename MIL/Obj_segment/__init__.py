@@ -1,1 +1,1 @@
-__all__ = ["Point_Seg", "Show_Seg","Rect","Obj_Cand","Candidate","Search_Reference"]
+__all__ = ["Point_Seg", "Show_Seg","Rect","Obj_Cand","Candidate","Search_Reference","IoU"]

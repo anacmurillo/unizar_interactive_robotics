@@ -1,13 +1,13 @@
 import numpy as np
 import cv2
 import timeit
-import matplotlib.pyplot as plt
 from sklearn.cluster import MiniBatchKMeans,KMeans
 from skimage.segmentation import felzenszwalb,slic
 from skimage.segmentation import mark_boundaries
 from skimage.color import label2rgb
 import multiprocessing
 import random
+# from Obj_segment.Maskrcnn import *
 import math
 import Obj_segment.Rect
 import Candidate
@@ -24,6 +24,7 @@ class Object_Cand():
         self.centro = (0, 0)
         self.angulo = 0
         self.dim = None
+        # self.Mask = maskrcnn(False)
 
     def inside(self,img,seg,p1,p2):
         D1 = img.copy()
@@ -91,7 +92,7 @@ class Object_Cand():
         r = r / r[2]
         return (r[0], r[1])
 
-    def top_to_front(self,x,y,x2,y2,im_front,im_top):
+    def top_to_front(self,x,y,x2,y2,im_front,im_top,dep_top):
         p1 = self.homo_get(x, y)
         p2 = self.homo_get(x2, y2)
 
@@ -114,7 +115,8 @@ class Object_Cand():
 
         Patch = im_front[rec.top:rec.bottom, rec.left:rec.right]
         Patch_T = im_top[Rec_top.top:Rec_top.bottom, Rec_top.left:Rec_top.right]
-        C = Candidate.Candidate(Rec_top, Pos_top, rec, Pos_front, Patch,Patch_T, "MaskRCNN")
+        Patch_d = dep_top[Rec_top.top:Rec_top.bottom, Rec_top.left:Rec_top.right]
+        C = Candidate.Candidate(Rec_top, Pos_top, rec, Pos_front, Patch,Patch_T, Patch_d)
 
         return C
 
@@ -132,7 +134,7 @@ class Object_Cand():
             S.Values["dim"] = dim
             if num <= 1:
                 num += 1
-                cv2.imwrite("tfenv/maskrcnn/Mask_RCNN/Test.jpg", img)
+                cv2.imwrite("/home/pazagra/tfp3/mask/Mask_RCNN/Test.jpg", img)
                 subprocess.Popen(["bash", "Mask.sh"]).wait()
                 fi = open("Output.txt", 'r')
                 for l in fi.readlines():
@@ -143,12 +145,22 @@ class Object_Cand():
                     r2 = dim[1] + n[1]
                     c1 = dim[0] + n[2]
                     c2 = dim[0] + n[3]
-                    C = self.top_to_front(c1, r1, c2, r2, cv2.imread(S.RGB_front),cv2.imread(S.RGB_top))
+                    C = self.top_to_front(c1, r1, c2, r2, cv2.imread(S.RGB_front), cv2.imread(S.RGB_top))
                     if C.size_top == 0 or C.size_front == 0:
                         continue
                     Objects.append(C)
                 fi.close()
                 os.remove("Output.txt")
+                # lista,_ = self.Mask.maskrcnn(img)
+                # for l in lista:
+                #     c1 = dim[0] + l[0]
+                #     c2 = dim[0] + l[0] +l[2]
+                #     r1 = dim[1] + l[1]
+                #     r2 = dim[1] + l[1] +l[3]
+                #     C = self.top_to_front(c1, r1, c2, r2, cv2.imread(S.RGB_front),cv2.imread(S.RGB_top))
+                #     if C.size_top == 0 or C.size_front == 0:
+                #         continue
+                #     Objects.append(C)
                 T, img = watershed.Sp_Water(cv2.imread(S.RGB_front), img, dim,cv2.imread(S.RGB_top))
                 for c in T:
                     if c.size_top == 0 or c.size_front == 0:
@@ -165,7 +177,14 @@ class Object_Cand():
                 for ref in Cand:
                     p1, p2 = ref.BB_top.two_point()
                     cv2.rectangle(top2, p1, p2, color, 2)
+                # cv2.imwrite("/home/iglu/catkin_ws/src/MIL/Outputs/Obj_Table/Table_Mask_"+FM.user+"_"+FM.action+"_"+num.__str__()+".jpg",
+                #             top1[dim[1]:dim[1]+dim[3],dim[0]:dim[0]+dim[2]])
+                # cv2.imwrite(
+                #     "/home/iglu/catkin_ws/src/MIL/Outputs/Obj_Table/Table_WaterShed_" + FM.user + "_" + FM.action + "_" + num.__str__() + ".jpg",
+                #     top2[dim[1]:dim[1] + dim[3], dim[0]:dim[0] + dim[2]])
         if len(points_top) < 12:
+            for c in Cand:
+                Objects.append(c)
             return Objects
         kmeans = MiniBatchKMeans(n_clusters=12).fit(np.array(points_top))
         for num in xrange(len(kmeans.cluster_centers_)):
@@ -186,6 +205,10 @@ class Object_Cand():
         for ref in Objects:
             p1, p2 = ref.BB_top.two_point()
             cv2.rectangle(top, p1, p2, color, 2)
+        # if dim is not None:
+        #     cv2.imwrite(
+        #         "/home/iglu/catkin_ws/src/MIL/Outputs/Obj_Table/Table_Full_" + FM.user + "_" + FM.action + "_" + num.__str__() + ".jpg",
+        #         top[dim[1]:dim[1] + dim[3], dim[0]:dim[0] + dim[2]])
         return Objects
 
 
@@ -205,7 +228,7 @@ class Object_Cand():
         total = sum(sum(Mask_1[:, :, 0]))
 
         #Find the biggest countour (The table)
-        (cnts, _) = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        (im,cnts, _) = cv2.findContours(edged.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         max_cc = max(cnts, key = cv2.contourArea)
         if cv2.contourArea(max_cc) <0.6*total:
             return None,None

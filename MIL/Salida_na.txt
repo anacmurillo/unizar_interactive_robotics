@@ -1,0 +1,1793 @@
+user1_Exp
+user1_Train_user2
+user2 point_4 Has no Candidate
+user1_Test_user2
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user3
+user1_Test_user3
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user4
+user1_Test_user4
+ Total: 598 Aciertos: 3 Porcentaje: 0.501672240803
+user1_Train_user5
+user1_Test_user5
+ Total: 598 Aciertos: 5 Porcentaje: 0.836120401338
+user1_Train_user6
+user1_Test_user6
+ Total: 598 Aciertos: 7 Porcentaje: 1.17056856187
+user1_Train_user7
+user1_Test_user7
+ Total: 598 Aciertos: 9 Porcentaje: 1.50501672241
+user1_Train_user8
+user1_Test_user8
+ Total: 598 Aciertos: 8 Porcentaje: 1.33779264214
+user1_Train_user9
+user1_Test_user9
+ Total: 598 Aciertos: 6 Porcentaje: 1.00334448161
+user1_Train_user10
+user1_Test_user10
+ Total: 598 Aciertos: 9 Porcentaje: 1.50501672241
+user2_Exp
+user2_Train_user1
+user2_Test_user1
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user3
+user2_Test_user3
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user4
+user2_Test_user4
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 27 Porcentaje: 8.23170731707
+user2_Train_user5
+user2_Test_user5
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 15 Porcentaje: 4.57317073171
+user2_Train_user6
+user2_Test_user6
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 20 Porcentaje: 6.09756097561
+user2_Train_user7
+user2_Test_user7
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 1 Porcentaje: 0.30487804878
+user2_Train_user8
+user2_Test_user8
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 2 Porcentaje: 0.609756097561
+user2_Train_user9
+user2_Test_user9
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 3 Porcentaje: 0.914634146341
+user2_Train_user10
+user2_Test_user10
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 2 Porcentaje: 0.609756097561
+user3_Exp
+user3_Train_user1
+user3_Test_user1
+ Total: 310 Aciertos: 1 Porcentaje: 0.322580645161
+user3_Train_user2
+user2 point_4 Has no Candidate
+user3_Test_user2
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user4
+user3_Test_user4
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user5
+user3_Test_user5
+ Total: 310 Aciertos: 23 Porcentaje: 7.41935483871
+user3_Train_user6
+user3_Test_user6
+ Total: 310 Aciertos: 23 Porcentaje: 7.41935483871
+user3_Train_user7
+user3_Test_user7
+ Total: 310 Aciertos: 31 Porcentaje: 10.0
+user3_Train_user8
+user3_Test_user8
+ Total: 310 Aciertos: 29 Porcentaje: 9.35483870968
+user3_Train_user9
+user3_Test_user9
+ Total: 310 Aciertos: 29 Porcentaje: 9.35483870968
+user3_Train_user10
+user3_Test_user10
+ Total: 310 Aciertos: 14 Porcentaje: 4.51612903226
+user4_Exp
+user4_Train_user1
+user4_Test_user1
+ Total: 257 Aciertos: 13 Porcentaje: 5.05836575875
+user4_Train_user2
+user2 point_4 Has no Candidate
+user4_Test_user2
+ Total: 257 Aciertos: 25 Porcentaje: 9.72762645914
+user4_Train_user3
+user4_Test_user3
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user5
+user4_Test_user5
+ Total: 257 Aciertos: 18 Porcentaje: 7.00389105058
+user4_Train_user6
+user4_Test_user6
+ Total: 257 Aciertos: 15 Porcentaje: 5.83657587549
+user4_Train_user7
+user4_Test_user7
+ Total: 257 Aciertos: 15 Porcentaje: 5.83657587549
+user4_Train_user8
+user4_Test_user8
+ Total: 257 Aciertos: 15 Porcentaje: 5.83657587549
+user4_Train_user9
+user4_Test_user9
+ Total: 257 Aciertos: 14 Porcentaje: 5.44747081712
+user4_Train_user10
+user4_Test_user10
+ Total: 257 Aciertos: 28 Porcentaje: 10.8949416342
+user5_Exp
+user5_Train_user1
+user5_Test_user1
+ Total: 485 Aciertos: 3 Porcentaje: 0.618556701031
+user5_Train_user2
+user2 point_4 Has no Candidate
+user5_Test_user2
+ Total: 485 Aciertos: 6 Porcentaje: 1.23711340206
+user5_Train_user3
+user5_Test_user3
+ Total: 485 Aciertos: 10 Porcentaje: 2.0618556701
+user5_Train_user4
+user5_Test_user4
+ Total: 485 Aciertos: 16 Porcentaje: 3.29896907216
+user5_Train_user6
+user5_Test_user6
+ Total: 485 Aciertos: 16 Porcentaje: 3.29896907216
+user5_Train_user7
+user5_Test_user7
+ Total: 485 Aciertos: 16 Porcentaje: 3.29896907216
+user5_Train_user8
+user5_Test_user8
+ Total: 485 Aciertos: 29 Porcentaje: 5.9793814433
+user5_Train_user9
+user5_Test_user9
+ Total: 485 Aciertos: 35 Porcentaje: 7.21649484536
+user5_Train_user10
+user5_Test_user10
+ Total: 485 Aciertos: 31 Porcentaje: 6.39175257732
+user6_Exp
+user6_Train_user1
+user6_Test_user1
+ Total: 153 Aciertos: 2 Porcentaje: 1.30718954248
+user6_Train_user2
+user2 point_4 Has no Candidate
+user6_Test_user2
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user3
+user6_Test_user3
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user4
+user6_Test_user4
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user5
+user6_Test_user5
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user7
+user6_Test_user7
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user8
+user6_Test_user8
+ Total: 153 Aciertos: 3 Porcentaje: 1.96078431373
+user6_Train_user9
+user6_Test_user9
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user10
+user6_Test_user10
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user7_Exp
+user7_Train_user1
+user7_Test_user1
+ Total: 333 Aciertos: 58 Porcentaje: 17.4174174174
+user7_Train_user2
+user2 point_4 Has no Candidate
+user7_Test_user2
+ Total: 333 Aciertos: 61 Porcentaje: 18.3183183183
+user7_Train_user3
+user7_Test_user3
+ Total: 333 Aciertos: 70 Porcentaje: 21.021021021
+user7_Train_user4
+user7_Test_user4
+ Total: 333 Aciertos: 17 Porcentaje: 5.10510510511
+user7_Train_user5
+user7_Test_user5
+ Total: 333 Aciertos: 11 Porcentaje: 3.3033033033
+user7_Train_user6
+user7_Test_user6
+ Total: 333 Aciertos: 12 Porcentaje: 3.6036036036
+user7_Train_user8
+user7_Test_user8
+ Total: 333 Aciertos: 14 Porcentaje: 4.2042042042
+user7_Train_user9
+user7_Test_user9
+ Total: 333 Aciertos: 13 Porcentaje: 3.9039039039
+user7_Train_user10
+user7_Test_user10
+ Total: 333 Aciertos: 12 Porcentaje: 3.6036036036
+user8_Exp
+user8_Train_user1
+user8_Test_user1
+ Total: 822 Aciertos: 22 Porcentaje: 2.67639902676
+user8_Train_user2
+user2 point_4 Has no Candidate
+user8_Test_user2
+ Total: 822 Aciertos: 17 Porcentaje: 2.06812652068
+user8_Train_user3
+user8_Test_user3
+ Total: 822 Aciertos: 19 Porcentaje: 2.31143552311
+user8_Train_user4
+user8_Test_user4
+ Total: 822 Aciertos: 24 Porcentaje: 2.9197080292
+user8_Train_user5
+user8_Test_user5
+ Total: 822 Aciertos: 29 Porcentaje: 3.52798053528
+user8_Train_user6
+user8_Test_user6
+ Total: 822 Aciertos: 30 Porcentaje: 3.6496350365
+user8_Train_user7
+user8_Test_user7
+ Total: 822 Aciertos: 30 Porcentaje: 3.6496350365
+user8_Train_user9
+user8_Test_user9
+ Total: 822 Aciertos: 34 Porcentaje: 4.13625304136
+user8_Train_user10
+user8_Test_user10
+ Total: 822 Aciertos: 39 Porcentaje: 4.74452554745
+user9_Exp
+user9_Train_user1
+user9_Test_user1
+ Total: 523 Aciertos: 13 Porcentaje: 2.48565965583
+user9_Train_user2
+user2 point_4 Has no Candidate
+user9_Test_user2
+ Total: 523 Aciertos: 10 Porcentaje: 1.9120458891
+user9_Train_user3
+user9_Test_user3
+ Total: 523 Aciertos: 18 Porcentaje: 3.44168260038
+user9_Train_user4
+user9_Test_user4
+ Total: 523 Aciertos: 17 Porcentaje: 3.25047801147
+user9_Train_user5
+user9_Test_user5
+ Total: 523 Aciertos: 17 Porcentaje: 3.25047801147
+user9_Train_user6
+user9_Test_user6
+ Total: 523 Aciertos: 13 Porcentaje: 2.48565965583
+user9_Train_user7
+user9_Test_user7
+ Total: 523 Aciertos: 13 Porcentaje: 2.48565965583
+user9_Train_user8
+user9_Test_user8
+ Total: 523 Aciertos: 14 Porcentaje: 2.67686424474
+user9_Train_user10
+user9_Test_user10
+ Total: 523 Aciertos: 12 Porcentaje: 2.29445506692
+user10_Exp
+user10_Train_user1
+user10_Test_user1
+ Total: 347 Aciertos: 30 Porcentaje: 8.64553314121
+user10_Train_user2
+user2 point_4 Has no Candidate
+user10_Test_user2
+ Total: 347 Aciertos: 5 Porcentaje: 1.4409221902
+user10_Train_user3
+user10_Test_user3
+ Total: 347 Aciertos: 5 Porcentaje: 1.4409221902
+user10_Train_user4
+user10_Test_user4
+ Total: 347 Aciertos: 8 Porcentaje: 2.30547550432
+user10_Train_user5
+user10_Test_user5
+ Total: 347 Aciertos: 17 Porcentaje: 4.89913544669
+user10_Train_user6
+user10_Test_user6
+ Total: 347 Aciertos: 28 Porcentaje: 8.06916426513
+user10_Train_user7
+user10_Test_user7
+ Total: 347 Aciertos: 15 Porcentaje: 4.32276657061
+user10_Train_user8
+user10_Test_user8
+ Total: 347 Aciertos: 6 Porcentaje: 1.72910662824
+user10_Train_user9
+user10_Test_user9
+ Total: 347 Aciertos: 6 Porcentaje: 1.72910662824
+###################################################################################################
+user1_Exp
+user1_Train_user2
+user2 point_4 Has no Candidate
+user1_Test_user2
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user3
+user1_Test_user3
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user4
+user1_Test_user4
+ Total: 598 Aciertos: 2 Porcentaje: 0.334448160535
+user1_Train_user5
+user1_Test_user5
+ Total: 598 Aciertos: 5 Porcentaje: 0.836120401338
+user1_Train_user6
+user1_Test_user6
+ Total: 598 Aciertos: 5 Porcentaje: 0.836120401338
+user1_Train_user7
+user1_Test_user7
+ Total: 598 Aciertos: 5 Porcentaje: 0.836120401338
+user1_Train_user8
+user1_Test_user8
+ Total: 598 Aciertos: 10 Porcentaje: 1.67224080268
+user1_Train_user9
+user1_Test_user9
+ Total: 598 Aciertos: 10 Porcentaje: 1.67224080268
+user1_Train_user10
+user1_Test_user10
+ Total: 598 Aciertos: 12 Porcentaje: 2.00668896321
+user2_Exp
+user2_Train_user1
+user2_Test_user1
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user3
+user2_Test_user3
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user4
+user2_Test_user4
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 14 Porcentaje: 4.26829268293
+user2_Train_user5
+user2_Test_user5
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 10 Porcentaje: 3.0487804878
+user2_Train_user6
+user2_Test_user6
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 9 Porcentaje: 2.74390243902
+user2_Train_user7
+user2_Test_user7
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 5 Porcentaje: 1.5243902439
+user2_Train_user8
+user2_Test_user8
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 5 Porcentaje: 1.5243902439
+user2_Train_user9
+user2_Test_user9
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 5 Porcentaje: 1.5243902439
+user2_Train_user10
+user2_Test_user10
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 3 Porcentaje: 0.914634146341
+user3_Exp
+user3_Train_user1
+user3_Test_user1
+ Total: 310 Aciertos: 1 Porcentaje: 0.322580645161
+user3_Train_user2
+user2 point_4 Has no Candidate
+user3_Test_user2
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user4
+user3_Test_user4
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user5
+user3_Test_user5
+ Total: 310 Aciertos: 21 Porcentaje: 6.77419354839
+user3_Train_user6
+user3_Test_user6
+ Total: 310 Aciertos: 21 Porcentaje: 6.77419354839
+user3_Train_user7
+user3_Test_user7
+ Total: 310 Aciertos: 26 Porcentaje: 8.38709677419
+user3_Train_user8
+user3_Test_user8
+ Total: 310 Aciertos: 21 Porcentaje: 6.77419354839
+user3_Train_user9
+user3_Test_user9
+ Total: 310 Aciertos: 22 Porcentaje: 7.09677419355
+user3_Train_user10
+user3_Test_user10
+ Total: 310 Aciertos: 23 Porcentaje: 7.41935483871
+user4_Exp
+user4_Train_user1
+user4_Test_user1
+ Total: 257 Aciertos: 19 Porcentaje: 7.39299610895
+user4_Train_user2
+user2 point_4 Has no Candidate
+user4_Test_user2
+ Total: 257 Aciertos: 30 Porcentaje: 11.673151751
+user4_Train_user3
+user4_Test_user3
+ Total: 257 Aciertos: 23 Porcentaje: 8.94941634241
+user4_Train_user5
+user4_Test_user5
+ Total: 257 Aciertos: 17 Porcentaje: 6.61478599222
+user4_Train_user6
+user4_Test_user6
+ Total: 257 Aciertos: 15 Porcentaje: 5.83657587549
+user4_Train_user7
+user4_Test_user7
+ Total: 257 Aciertos: 13 Porcentaje: 5.05836575875
+user4_Train_user8
+user4_Test_user8
+ Total: 257 Aciertos: 13 Porcentaje: 5.05836575875
+user4_Train_user9
+user4_Test_user9
+ Total: 257 Aciertos: 12 Porcentaje: 4.66926070039
+user4_Train_user10
+user4_Test_user10
+ Total: 257 Aciertos: 28 Porcentaje: 10.8949416342
+user5_Exp
+user5_Train_user1
+user5_Test_user1
+ Total: 485 Aciertos: 2 Porcentaje: 0.412371134021
+user5_Train_user2
+user2 point_4 Has no Candidate
+user5_Test_user2
+ Total: 485 Aciertos: 4 Porcentaje: 0.824742268041
+user5_Train_user3
+user5_Test_user3
+ Total: 485 Aciertos: 4 Porcentaje: 0.824742268041
+user5_Train_user4
+user5_Test_user4
+ Total: 485 Aciertos: 2 Porcentaje: 0.412371134021
+user5_Train_user6
+user5_Test_user6
+ Total: 485 Aciertos: 2 Porcentaje: 0.412371134021
+user5_Train_user7
+user5_Test_user7
+ Total: 485 Aciertos: 3 Porcentaje: 0.618556701031
+user5_Train_user8
+user5_Test_user8
+ Total: 485 Aciertos: 5 Porcentaje: 1.03092783505
+user5_Train_user9
+user5_Test_user9
+ Total: 485 Aciertos: 5 Porcentaje: 1.03092783505
+user5_Train_user10
+user5_Test_user10
+ Total: 485 Aciertos: 5 Porcentaje: 1.03092783505
+user6_Exp
+user6_Train_user1
+user6_Test_user1
+ Total: 153 Aciertos: 2 Porcentaje: 1.30718954248
+user6_Train_user2
+user2 point_4 Has no Candidate
+user6_Test_user2
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user3
+user6_Test_user3
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user4
+user6_Test_user4
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user5
+user6_Test_user5
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user7
+user6_Test_user7
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user8
+user6_Test_user8
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user9
+user6_Test_user9
+ Total: 153 Aciertos: 1 Porcentaje: 0.653594771242
+user6_Train_user10
+user6_Test_user10
+ Total: 153 Aciertos: 2 Porcentaje: 1.30718954248
+user7_Exp
+user7_Train_user1
+user7_Test_user1
+ Total: 333 Aciertos: 59 Porcentaje: 17.7177177177
+user7_Train_user2
+user2 point_4 Has no Candidate
+user7_Test_user2
+ Total: 333 Aciertos: 62 Porcentaje: 18.6186186186
+user7_Train_user3
+user7_Test_user3
+ Total: 333 Aciertos: 71 Porcentaje: 21.3213213213
+user7_Train_user4
+user7_Test_user4
+ Total: 333 Aciertos: 23 Porcentaje: 6.90690690691
+user7_Train_user5
+user7_Test_user5
+ Total: 333 Aciertos: 15 Porcentaje: 4.5045045045
+user7_Train_user6
+user7_Test_user6
+ Total: 333 Aciertos: 11 Porcentaje: 3.3033033033
+user7_Train_user8
+user7_Test_user8
+ Total: 333 Aciertos: 6 Porcentaje: 1.8018018018
+user7_Train_user9
+user7_Test_user9
+ Total: 333 Aciertos: 6 Porcentaje: 1.8018018018
+user7_Train_user10
+user7_Test_user10
+ Total: 333 Aciertos: 5 Porcentaje: 1.5015015015
+user8_Exp
+user8_Train_user1
+user8_Test_user1
+ Total: 822 Aciertos: 21 Porcentaje: 2.55474452555
+user8_Train_user2
+user2 point_4 Has no Candidate
+user8_Test_user2
+ Total: 822 Aciertos: 19 Porcentaje: 2.31143552311
+user8_Train_user3
+user8_Test_user3
+ Total: 822 Aciertos: 19 Porcentaje: 2.31143552311
+user8_Train_user4
+user8_Test_user4
+ Total: 822 Aciertos: 24 Porcentaje: 2.9197080292
+user8_Train_user5
+user8_Test_user5
+ Total: 822 Aciertos: 19 Porcentaje: 2.31143552311
+user8_Train_user6
+user8_Test_user6
+ Total: 822 Aciertos: 17 Porcentaje: 2.06812652068
+user8_Train_user7
+user8_Test_user7
+ Total: 822 Aciertos: 15 Porcentaje: 1.82481751825
+user8_Train_user9
+user8_Test_user9
+ Total: 822 Aciertos: 15 Porcentaje: 1.82481751825
+user8_Train_user10
+user8_Test_user10
+ Total: 822 Aciertos: 14 Porcentaje: 1.70316301703
+user9_Exp
+user9_Train_user1
+user9_Test_user1
+ Total: 523 Aciertos: 10 Porcentaje: 1.9120458891
+user9_Train_user2
+user2 point_4 Has no Candidate
+user9_Test_user2
+ Total: 523 Aciertos: 8 Porcentaje: 1.52963671128
+user9_Train_user3
+user9_Test_user3
+ Total: 523 Aciertos: 12 Porcentaje: 2.29445506692
+user9_Train_user4
+user9_Test_user4
+ Total: 523 Aciertos: 12 Porcentaje: 2.29445506692
+user9_Train_user5
+user9_Test_user5
+ Total: 523 Aciertos: 17 Porcentaje: 3.25047801147
+user9_Train_user6
+user9_Test_user6
+ Total: 523 Aciertos: 16 Porcentaje: 3.05927342256
+user9_Train_user7
+user9_Test_user7
+ Total: 523 Aciertos: 16 Porcentaje: 3.05927342256
+user9_Train_user8
+user9_Test_user8
+ Total: 523 Aciertos: 18 Porcentaje: 3.44168260038
+user9_Train_user10
+user9_Test_user10
+ Total: 523 Aciertos: 18 Porcentaje: 3.44168260038
+user10_Exp
+user10_Train_user1
+user10_Test_user1
+ Total: 347 Aciertos: 30 Porcentaje: 8.64553314121
+user10_Train_user2
+user2 point_4 Has no Candidate
+user10_Test_user2
+ Total: 347 Aciertos: 6 Porcentaje: 1.72910662824
+user10_Train_user3
+user10_Test_user3
+ Total: 347 Aciertos: 11 Porcentaje: 3.17002881844
+user10_Train_user4
+user10_Test_user4
+ Total: 347 Aciertos: 14 Porcentaje: 4.03458213256
+user10_Train_user5
+user10_Test_user5
+ Total: 347 Aciertos: 14 Porcentaje: 4.03458213256
+user10_Train_user6
+user10_Test_user6
+ Total: 347 Aciertos: 22 Porcentaje: 6.34005763689
+user10_Train_user7
+user10_Test_user7
+ Total: 347 Aciertos: 12 Porcentaje: 3.45821325648
+user10_Train_user8
+user10_Test_user8
+ Total: 347 Aciertos: 16 Porcentaje: 4.61095100865
+user10_Train_user9
+user10_Test_user9
+ Total: 347 Aciertos: 14 Porcentaje: 4.03458213256
+################################################################################################
+user1_Exp
+user1_Train_user2
+user2 point_4 Has no Candidate
+user1_Test_user2
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user3
+user1_Test_user3
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user4
+user1_Test_user4
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user5
+user1_Test_user5
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user6
+user1_Test_user6
+ Total: 598 Aciertos: 28 Porcentaje: 4.68227424749
+user1_Train_user7
+user1_Test_user7
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user8
+user1_Test_user8
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user9
+user1_Test_user9
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user10
+user1_Test_user10
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user2_Exp
+user2_Train_user1
+user2_Test_user1
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user3
+user2_Test_user3
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user4
+user2_Test_user4
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user5
+user2_Test_user5
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user6
+user2_Test_user6
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user7
+user2_Test_user7
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user8
+user2_Test_user8
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user9
+user2_Test_user9
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user10
+user2_Test_user10
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user3_Exp
+user3_Train_user1
+user3_Test_user1
+ Total: 310 Aciertos: 1 Porcentaje: 0.322580645161
+user3_Train_user2
+user2 point_4 Has no Candidate
+user3_Test_user2
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user4
+user3_Test_user4
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user5
+user3_Test_user5
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user6
+user3_Test_user6
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user7
+user3_Test_user7
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user8
+user3_Test_user8
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user9
+user3_Test_user9
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user10
+user3_Test_user10
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user4_Exp
+user4_Train_user1
+user4_Test_user1
+ Total: 257 Aciertos: 21 Porcentaje: 8.17120622568
+user4_Train_user2
+user2 point_4 Has no Candidate
+user4_Test_user2
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user3
+user4_Test_user3
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user5
+user4_Test_user5
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user6
+user4_Test_user6
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user7
+user4_Test_user7
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user8
+user4_Test_user8
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user9
+user4_Test_user9
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user10
+user4_Test_user10
+ Total: 257 Aciertos: 34 Porcentaje: 13.2295719844
+user5_Exp
+user5_Train_user1
+user5_Test_user1
+ Total: 485 Aciertos: 0 Porcentaje: 0.0
+user5_Train_user2
+user2 point_4 Has no Candidate
+user5_Test_user2
+ Total: 485 Aciertos: 0 Porcentaje: 0.0
+user5_Train_user3
+user5_Test_user3
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user4
+user5_Test_user4
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user6
+user5_Test_user6
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user7
+user5_Test_user7
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user8
+user5_Test_user8
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user9
+user5_Test_user9
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user10
+user5_Test_user10
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user6_Exp
+user6_Train_user1
+user6_Test_user1
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user2
+user2 point_4 Has no Candidate
+user6_Test_user2
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user3
+user6_Test_user3
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user4
+user6_Test_user4
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user5
+user6_Test_user5
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user7
+user6_Test_user7
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user8
+user6_Test_user8
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user9
+user6_Test_user9
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user10
+user6_Test_user10
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user7_Exp
+user7_Train_user1
+user7_Test_user1
+ Total: 333 Aciertos: 50 Porcentaje: 15.015015015
+user7_Train_user2
+user2 point_4 Has no Candidate
+user7_Test_user2
+ Total: 333 Aciertos: 50 Porcentaje: 15.015015015
+user7_Train_user3
+user7_Test_user3
+ Total: 333 Aciertos: 50 Porcentaje: 15.015015015
+user7_Train_user4
+user7_Test_user4
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user5
+user7_Test_user5
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user6
+user7_Test_user6
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user8
+user7_Test_user8
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user9
+user7_Test_user9
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user10
+user7_Test_user10
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user8_Exp
+user8_Train_user1
+user8_Test_user1
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user2
+user2 point_4 Has no Candidate
+user8_Test_user2
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user3
+user8_Test_user3
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user4
+user8_Test_user4
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user5
+user8_Test_user5
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user6
+user8_Test_user6
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user7
+user8_Test_user7
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user9
+user8_Test_user9
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user10
+user8_Test_user10
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user9_Exp
+user9_Train_user1
+user9_Test_user1
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user2
+user2 point_4 Has no Candidate
+user9_Test_user2
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user3
+user9_Test_user3
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user4
+user9_Test_user4
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user5
+user9_Test_user5
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user6
+user9_Test_user6
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user7
+user9_Test_user7
+ Total: 523 Aciertos: 51 Porcentaje: 9.75143403442
+user9_Train_user8
+user9_Test_user8
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user10
+user9_Test_user10
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user10_Exp
+user10_Train_user1
+user10_Test_user1
+ Total: 347 Aciertos: 9 Porcentaje: 2.59365994236
+user10_Train_user2
+user2 point_4 Has no Candidate
+user10_Test_user2
+ Total: 347 Aciertos: 43 Porcentaje: 12.3919308357
+user10_Train_user3
+user10_Test_user3
+ Total: 347 Aciertos: 0 Porcentaje: 0.0
+user10_Train_user4
+user10_Test_user4
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user5
+user10_Test_user5
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user6
+user10_Test_user6
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user7
+user10_Test_user7
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user8
+user10_Test_user8
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user9
+user10_Test_user9
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+####################################################################################
+user1_Exp
+user1_Train_user2
+user2 point_4 Has no Candidate
+user1_Test_user2
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user3
+user1_Test_user3
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user4
+user1_Test_user4
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user5
+user1_Test_user5
+ Total: 598 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user6
+user1_Test_user6
+ Total: 598 Aciertos: 28 Porcentaje: 4.68227424749
+user1_Train_user7
+user1_Test_user7
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user8
+user1_Test_user8
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user9
+user1_Test_user9
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user1_Train_user10
+user1_Test_user10
+ Total: 598 Aciertos: 1 Porcentaje: 0.167224080268
+user2_Exp
+user2_Train_user1
+user2_Test_user1
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user3
+user2_Test_user3
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user4
+user2_Test_user4
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user5
+user2_Test_user5
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user6
+user2_Test_user6
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user7
+user2_Test_user7
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user8
+user2_Test_user8
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user9
+user2_Test_user9
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user10
+user2_Test_user10
+user2 point_4 Has no Candidate
+ Total: 328 Aciertos: 0 Porcentaje: 0.0
+user3_Exp
+user3_Train_user1
+user3_Test_user1
+ Total: 310 Aciertos: 1 Porcentaje: 0.322580645161
+user3_Train_user2
+user2 point_4 Has no Candidate
+user3_Test_user2
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user4
+user3_Test_user4
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user5
+user3_Test_user5
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user6
+user3_Test_user6
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user7
+user3_Test_user7
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user8
+user3_Test_user8
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user9
+user3_Test_user9
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user3_Train_user10
+user3_Test_user10
+ Total: 310 Aciertos: 0 Porcentaje: 0.0
+user4_Exp
+user4_Train_user1
+user4_Test_user1
+ Total: 257 Aciertos: 21 Porcentaje: 8.17120622568
+user4_Train_user2
+user2 point_4 Has no Candidate
+user4_Test_user2
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user3
+user4_Test_user3
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user5
+user4_Test_user5
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user6
+user4_Test_user6
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user7
+user4_Test_user7
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user8
+user4_Test_user8
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user9
+user4_Test_user9
+ Total: 257 Aciertos: 20 Porcentaje: 7.78210116732
+user4_Train_user10
+user4_Test_user10
+ Total: 257 Aciertos: 34 Porcentaje: 13.2295719844
+user5_Exp
+user5_Train_user1
+user5_Test_user1
+ Total: 485 Aciertos: 0 Porcentaje: 0.0
+user5_Train_user2
+user2 point_4 Has no Candidate
+user5_Test_user2
+ Total: 485 Aciertos: 0 Porcentaje: 0.0
+user5_Train_user3
+user5_Test_user3
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user4
+user5_Test_user4
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user6
+user5_Test_user6
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user7
+user5_Test_user7
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user8
+user5_Test_user8
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user9
+user5_Test_user9
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user5_Train_user10
+user5_Test_user10
+ Total: 485 Aciertos: 1 Porcentaje: 0.20618556701
+user6_Exp
+user6_Train_user1
+user6_Test_user1
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user2
+user2 point_4 Has no Candidate
+user6_Test_user2
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user3
+user6_Test_user3
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user4
+user6_Test_user4
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user5
+user6_Test_user5
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user7
+user6_Test_user7
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user8
+user6_Test_user8
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user9
+user6_Test_user9
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user6_Train_user10
+user6_Test_user10
+ Total: 153 Aciertos: 0 Porcentaje: 0.0
+user7_Exp
+user7_Train_user1
+user7_Test_user1
+ Total: 333 Aciertos: 50 Porcentaje: 15.015015015
+user7_Train_user2
+user2 point_4 Has no Candidate
+user7_Test_user2
+ Total: 333 Aciertos: 50 Porcentaje: 15.015015015
+user7_Train_user3
+user7_Test_user3
+ Total: 333 Aciertos: 50 Porcentaje: 15.015015015
+user7_Train_user4
+user7_Test_user4
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user5
+user7_Test_user5
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user6
+user7_Test_user6
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user8
+user7_Test_user8
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user9
+user7_Test_user9
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user7_Train_user10
+user7_Test_user10
+ Total: 333 Aciertos: 2 Porcentaje: 0.600600600601
+user8_Exp
+user8_Train_user1
+user8_Test_user1
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user2
+user2 point_4 Has no Candidate
+user8_Test_user2
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user3
+user8_Test_user3
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user4
+user8_Test_user4
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user5
+user8_Test_user5
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user6
+user8_Test_user6
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user7
+user8_Test_user7
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user9
+user8_Test_user9
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user10
+user8_Test_user10
+ Total: 822 Aciertos: 0 Porcentaje: 0.0
+user9_Exp
+user9_Train_user1
+user9_Test_user1
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user2
+user2 point_4 Has no Candidate
+user9_Test_user2
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user3
+user9_Test_user3
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user4
+user9_Test_user4
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user5
+user9_Test_user5
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user6
+user9_Test_user6
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user7
+user9_Test_user7
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user8
+user9_Test_user8
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user9_Train_user10
+user9_Test_user10
+ Total: 523 Aciertos: 0 Porcentaje: 0.0
+user10_Exp
+user10_Train_user1
+user10_Test_user1
+ Total: 347 Aciertos: 9 Porcentaje: 2.59365994236
+user10_Train_user2
+user2 point_4 Has no Candidate
+user10_Test_user2
+ Total: 347 Aciertos: 43 Porcentaje: 12.3919308357
+user10_Train_user3
+user10_Test_user3
+ Total: 347 Aciertos: 0 Porcentaje: 0.0
+user10_Train_user4
+user10_Test_user4
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user5
+user10_Test_user5
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user6
+user10_Test_user6
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user7
+user10_Test_user7
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user8
+user10_Test_user8
+ Total: 347 Aciertos: 3 Porcentaje: 0.864553314121
+user10_Train_user9
+user10_Test_user9
+ Total: 347 Aciertos: 4 Porcentaje: 1.15273775216
+################################################################################
+user1_Exp
+user1_Train_user2
+user2 point_4 Has no Candidate
+user1_Test_user2
+ Total: 566 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user3
+user1_Test_user3
+ Total: 566 Aciertos: 13 Porcentaje: 2.29681978799
+user1_Train_user4
+user1_Test_user4
+ Total: 566 Aciertos: 43 Porcentaje: 7.59717314488
+user1_Train_user5
+user1_Test_user5
+ Total: 566 Aciertos: 35 Porcentaje: 6.18374558304
+user1_Train_user6
+user1_Test_user6
+ Total: 566 Aciertos: 35 Porcentaje: 6.18374558304
+user1_Train_user7
+user1_Test_user7
+ Total: 566 Aciertos: 42 Porcentaje: 7.42049469965
+user1_Train_user8
+user1_Test_user8
+ Total: 566 Aciertos: 46 Porcentaje: 8.12720848057
+user1_Train_user9
+user1_Test_user9
+ Total: 566 Aciertos: 60 Porcentaje: 10.6007067138
+user1_Train_user10
+user1_Test_user10
+ Total: 566 Aciertos: 71 Porcentaje: 12.5441696113
+user2_Exp
+user2_Train_user1
+user2_Test_user1
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user3
+user2_Test_user3
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user4
+user2_Test_user4
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 9 Porcentaje: 4.94505494505
+user2_Train_user5
+user2_Test_user5
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 9 Porcentaje: 4.94505494505
+user2_Train_user6
+user2_Test_user6
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 9 Porcentaje: 4.94505494505
+user2_Train_user7
+user2_Test_user7
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 6 Porcentaje: 3.2967032967
+user2_Train_user8
+user2_Test_user8
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 8 Porcentaje: 4.3956043956
+user2_Train_user9
+user2_Test_user9
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 10 Porcentaje: 5.49450549451
+user2_Train_user10
+user2_Test_user10
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 7 Porcentaje: 3.84615384615
+user3_Exp
+user3_Train_user1
+user3_Test_user1
+ Total: 248 Aciertos: 48 Porcentaje: 19.3548387097
+user3_Train_user2
+user2 point_4 Has no Candidate
+user3_Test_user2
+ Total: 248 Aciertos: 35 Porcentaje: 14.1129032258
+user3_Train_user4
+user3_Test_user4
+ Total: 248 Aciertos: 30 Porcentaje: 12.0967741935
+user3_Train_user5
+user3_Test_user5
+ Total: 248 Aciertos: 22 Porcentaje: 8.87096774194
+user3_Train_user6
+user3_Test_user6
+ Total: 248 Aciertos: 23 Porcentaje: 9.27419354839
+user3_Train_user7
+user3_Test_user7
+ Total: 248 Aciertos: 31 Porcentaje: 12.5
+user3_Train_user8
+user3_Test_user8
+ Total: 248 Aciertos: 19 Porcentaje: 7.66129032258
+user3_Train_user9
+user3_Test_user9
+ Total: 248 Aciertos: 24 Porcentaje: 9.67741935484
+user3_Train_user10
+user3_Test_user10
+ Total: 248 Aciertos: 12 Porcentaje: 4.83870967742
+user4_Exp
+user4_Train_user1
+user4_Test_user1
+ Total: 151 Aciertos: 5 Porcentaje: 3.31125827815
+user4_Train_user2
+user2 point_4 Has no Candidate
+user4_Test_user2
+ Total: 151 Aciertos: 3 Porcentaje: 1.98675496689
+user4_Train_user3
+user4_Test_user3
+ Total: 151 Aciertos: 3 Porcentaje: 1.98675496689
+user4_Train_user5
+user4_Test_user5
+ Total: 151 Aciertos: 3 Porcentaje: 1.98675496689
+user4_Train_user6
+user4_Test_user6
+ Total: 151 Aciertos: 4 Porcentaje: 2.64900662252
+user4_Train_user7
+user4_Test_user7
+ Total: 151 Aciertos: 3 Porcentaje: 1.98675496689
+user4_Train_user8
+user4_Test_user8
+ Total: 151 Aciertos: 1 Porcentaje: 0.662251655629
+user4_Train_user9
+user4_Test_user9
+ Total: 151 Aciertos: 8 Porcentaje: 5.29801324503
+user4_Train_user10
+user4_Test_user10
+ Total: 151 Aciertos: 12 Porcentaje: 7.94701986755
+user5_Exp
+user5_Train_user1
+user5_Test_user1
+ Total: 360 Aciertos: 5 Porcentaje: 1.38888888889
+user5_Train_user2
+user2 point_4 Has no Candidate
+user5_Test_user2
+ Total: 360 Aciertos: 13 Porcentaje: 3.61111111111
+user5_Train_user3
+user5_Test_user3
+ Total: 360 Aciertos: 24 Porcentaje: 6.66666666667
+user5_Train_user4
+user5_Test_user4
+ Total: 360 Aciertos: 23 Porcentaje: 6.38888888889
+user5_Train_user6
+user5_Test_user6
+ Total: 360 Aciertos: 25 Porcentaje: 6.94444444444
+user5_Train_user7
+user5_Test_user7
+ Total: 360 Aciertos: 17 Porcentaje: 4.72222222222
+user5_Train_user8
+user5_Test_user8
+ Total: 360 Aciertos: 18 Porcentaje: 5.0
+user5_Train_user9
+user5_Test_user9
+ Total: 360 Aciertos: 14 Porcentaje: 3.88888888889
+user5_Train_user10
+user5_Test_user10
+ Total: 360 Aciertos: 14 Porcentaje: 3.88888888889
+user6_Exp
+user6_Train_user1
+user6_Test_user1
+ Total: 128 Aciertos: 5 Porcentaje: 3.90625
+user6_Train_user2
+user2 point_4 Has no Candidate
+user6_Test_user2
+ Total: 128 Aciertos: 3 Porcentaje: 2.34375
+user6_Train_user3
+user6_Test_user3
+ Total: 128 Aciertos: 3 Porcentaje: 2.34375
+user6_Train_user4
+user6_Test_user4
+ Total: 128 Aciertos: 2 Porcentaje: 1.5625
+user6_Train_user5
+user6_Test_user5
+ Total: 128 Aciertos: 3 Porcentaje: 2.34375
+user6_Train_user7
+user6_Test_user7
+ Total: 128 Aciertos: 4 Porcentaje: 3.125
+user6_Train_user8
+user6_Test_user8
+ Total: 128 Aciertos: 5 Porcentaje: 3.90625
+user6_Train_user9
+user6_Test_user9
+ Total: 128 Aciertos: 6 Porcentaje: 4.6875
+user6_Train_user10
+user6_Test_user10
+ Total: 128 Aciertos: 4 Porcentaje: 3.125
+user7_Exp
+user7_Train_user1
+user7_Test_user1
+ Total: 150 Aciertos: 5 Porcentaje: 3.33333333333
+user7_Train_user2
+user2 point_4 Has no Candidate
+user7_Test_user2
+ Total: 150 Aciertos: 0 Porcentaje: 0.0
+user7_Train_user3
+user7_Test_user3
+ Total: 150 Aciertos: 7 Porcentaje: 4.66666666667
+user7_Train_user4
+user7_Test_user4
+ Total: 150 Aciertos: 4 Porcentaje: 2.66666666667
+user7_Train_user5
+user7_Test_user5
+ Total: 150 Aciertos: 6 Porcentaje: 4.0
+user7_Train_user6
+user7_Test_user6
+ Total: 150 Aciertos: 7 Porcentaje: 4.66666666667
+user7_Train_user8
+user7_Test_user8
+ Total: 150 Aciertos: 7 Porcentaje: 4.66666666667
+user7_Train_user9
+user7_Test_user9
+ Total: 150 Aciertos: 8 Porcentaje: 5.33333333333
+user7_Train_user10
+user7_Test_user10
+ Total: 150 Aciertos: 12 Porcentaje: 8.0
+user8_Exp
+user8_Train_user1
+user8_Test_user1
+ Total: 329 Aciertos: 5 Porcentaje: 1.51975683891
+user8_Train_user2
+user2 point_4 Has no Candidate
+user8_Test_user2
+ Total: 329 Aciertos: 12 Porcentaje: 3.64741641337
+user8_Train_user3
+user8_Test_user3
+ Total: 329 Aciertos: 8 Porcentaje: 2.43161094225
+user8_Train_user4
+user8_Test_user4
+ Total: 329 Aciertos: 4 Porcentaje: 1.21580547112
+user8_Train_user5
+user8_Test_user5
+ Total: 329 Aciertos: 8 Porcentaje: 2.43161094225
+user8_Train_user6
+user8_Test_user6
+ Total: 329 Aciertos: 11 Porcentaje: 3.34346504559
+user8_Train_user7
+user8_Test_user7
+ Total: 329 Aciertos: 11 Porcentaje: 3.34346504559
+user8_Train_user9
+user8_Test_user9
+ Total: 329 Aciertos: 15 Porcentaje: 4.55927051672
+user8_Train_user10
+user8_Test_user10
+ Total: 329 Aciertos: 18 Porcentaje: 5.47112462006
+user9_Exp
+user9_Train_user1
+user9_Test_user1
+ Total: 357 Aciertos: 5 Porcentaje: 1.40056022409
+user9_Train_user2
+user2 point_4 Has no Candidate
+user9_Test_user2
+ Total: 357 Aciertos: 4 Porcentaje: 1.12044817927
+user9_Train_user3
+user9_Test_user3
+ Total: 357 Aciertos: 15 Porcentaje: 4.20168067227
+user9_Train_user4
+user9_Test_user4
+ Total: 357 Aciertos: 25 Porcentaje: 7.00280112045
+user9_Train_user5
+user9_Test_user5
+ Total: 357 Aciertos: 16 Porcentaje: 4.48179271709
+user9_Train_user6
+user9_Test_user6
+ Total: 357 Aciertos: 10 Porcentaje: 2.80112044818
+user9_Train_user7
+user9_Test_user7
+ Total: 357 Aciertos: 6 Porcentaje: 1.68067226891
+user9_Train_user8
+user9_Test_user8
+ Total: 357 Aciertos: 12 Porcentaje: 3.36134453782
+user9_Train_user10
+user9_Test_user10
+ Total: 357 Aciertos: 20 Porcentaje: 5.60224089636
+user10_Exp
+user10_Train_user1
+user10_Test_user1
+ Total: 299 Aciertos: 31 Porcentaje: 10.3678929766
+user10_Train_user2
+user2 point_4 Has no Candidate
+user10_Test_user2
+ Total: 299 Aciertos: 22 Porcentaje: 7.35785953177
+user10_Train_user3
+user10_Test_user3
+ Total: 299 Aciertos: 11 Porcentaje: 3.67892976589
+user10_Train_user4
+user10_Test_user4
+ Total: 299 Aciertos: 14 Porcentaje: 4.68227424749
+user10_Train_user5
+user10_Test_user5
+ Total: 299 Aciertos: 14 Porcentaje: 4.68227424749
+user10_Train_user6
+user10_Test_user6
+ Total: 299 Aciertos: 17 Porcentaje: 5.6856187291
+user10_Train_user7
+user10_Test_user7
+ Total: 299 Aciertos: 13 Porcentaje: 4.34782608696
+user10_Train_user8
+user10_Test_user8
+ Total: 299 Aciertos: 6 Porcentaje: 2.00668896321
+user10_Train_user9
+user10_Test_user9
+ Total: 299 Aciertos: 14 Porcentaje: 4.68227424749
+#############################################################################
+user1_Exp
+user1_Train_user2
+user2 point_4 Has no Candidate
+user1_Test_user2
+ Total: 566 Aciertos: 0 Porcentaje: 0.0
+user1_Train_user3
+user1_Test_user3
+ Total: 566 Aciertos: 23 Porcentaje: 4.06360424028
+user1_Train_user4
+user1_Test_user4
+ Total: 566 Aciertos: 38 Porcentaje: 6.71378091873
+user1_Train_user5
+user1_Test_user5
+ Total: 566 Aciertos: 14 Porcentaje: 2.47349823322
+user1_Train_user6
+user1_Test_user6
+ Total: 566 Aciertos: 11 Porcentaje: 1.94346289753
+user1_Train_user7
+user1_Test_user7
+ Total: 566 Aciertos: 10 Porcentaje: 1.7667844523
+user1_Train_user8
+user1_Test_user8
+ Total: 566 Aciertos: 16 Porcentaje: 2.82685512367
+user1_Train_user9
+user1_Test_user9
+ Total: 566 Aciertos: 30 Porcentaje: 5.30035335689
+user1_Train_user10
+user1_Test_user10
+ Total: 566 Aciertos: 27 Porcentaje: 4.7703180212
+user2_Exp
+user2_Train_user1
+user2_Test_user1
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user3
+user2_Test_user3
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 0 Porcentaje: 0.0
+user2_Train_user4
+user2_Test_user4
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 4 Porcentaje: 2.1978021978
+user2_Train_user5
+user2_Test_user5
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 4 Porcentaje: 2.1978021978
+user2_Train_user6
+user2_Test_user6
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 3 Porcentaje: 1.64835164835
+user2_Train_user7
+user2_Test_user7
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 3 Porcentaje: 1.64835164835
+user2_Train_user8
+user2_Test_user8
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 2 Porcentaje: 1.0989010989
+user2_Train_user9
+user2_Test_user9
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 2 Porcentaje: 1.0989010989
+user2_Train_user10
+user2_Test_user10
+user2 point_4 Has no Candidate
+ Total: 182 Aciertos: 2 Porcentaje: 1.0989010989
+user3_Exp
+user3_Train_user1
+user3_Test_user1
+ Total: 248 Aciertos: 23 Porcentaje: 9.27419354839
+user3_Train_user2
+user2 point_4 Has no Candidate
+user3_Test_user2
+ Total: 248 Aciertos: 22 Porcentaje: 8.87096774194
+user3_Train_user4
+user3_Test_user4
+ Total: 248 Aciertos: 21 Porcentaje: 8.46774193548
+user3_Train_user5
+user3_Test_user5
+ Total: 248 Aciertos: 23 Porcentaje: 9.27419354839
+user3_Train_user6
+user3_Test_user6
+ Total: 248 Aciertos: 19 Porcentaje: 7.66129032258
+user3_Train_user7
+user3_Test_user7
+ Total: 248 Aciertos: 18 Porcentaje: 7.25806451613
+user3_Train_user8
+user3_Test_user8
+ Total: 248 Aciertos: 17 Porcentaje: 6.85483870968
+user3_Train_user9
+user3_Test_user9
+ Total: 248 Aciertos: 16 Porcentaje: 6.45161290323
+user3_Train_user10
+user3_Test_user10
+ Total: 248 Aciertos: 14 Porcentaje: 5.64516129032
+user4_Exp
+user4_Train_user1
+user4_Test_user1
+ Total: 151 Aciertos: 6 Porcentaje: 3.97350993377
+user4_Train_user2
+user2 point_4 Has no Candidate
+user4_Test_user2
+ Total: 151 Aciertos: 8 Porcentaje: 5.29801324503
+user4_Train_user3
+user4_Test_user3
+ Total: 151 Aciertos: 5 Porcentaje: 3.31125827815
+user4_Train_user5
+user4_Test_user5
+ Total: 151 Aciertos: 5 Porcentaje: 3.31125827815
+user4_Train_user6
+user4_Test_user6
+ Total: 151 Aciertos: 4 Porcentaje: 2.64900662252
+user4_Train_user7
+user4_Test_user7
+ Total: 151 Aciertos: 4 Porcentaje: 2.64900662252
+user4_Train_user8
+user4_Test_user8
+ Total: 151 Aciertos: 3 Porcentaje: 1.98675496689
+user4_Train_user9
+user4_Test_user9
+ Total: 151 Aciertos: 5 Porcentaje: 3.31125827815
+user4_Train_user10
+user4_Test_user10
+ Total: 151 Aciertos: 5 Porcentaje: 3.31125827815
+user5_Exp
+user5_Train_user1
+user5_Test_user1
+ Total: 360 Aciertos: 6 Porcentaje: 1.66666666667
+user5_Train_user2
+user2 point_4 Has no Candidate
+user5_Test_user2
+ Total: 360 Aciertos: 8 Porcentaje: 2.22222222222
+user5_Train_user3
+user5_Test_user3
+ Total: 360 Aciertos: 9 Porcentaje: 2.5
+user5_Train_user4
+user5_Test_user4
+ Total: 360 Aciertos: 9 Porcentaje: 2.5
+user5_Train_user6
+user5_Test_user6
+ Total: 360 Aciertos: 11 Porcentaje: 3.05555555556
+user5_Train_user7
+user5_Test_user7
+ Total: 360 Aciertos: 8 Porcentaje: 2.22222222222
+user5_Train_user8
+user5_Test_user8
+ Total: 360 Aciertos: 12 Porcentaje: 3.33333333333
+user5_Train_user9
+user5_Test_user9
+ Total: 360 Aciertos: 12 Porcentaje: 3.33333333333
+user5_Train_user10
+user5_Test_user10
+ Total: 360 Aciertos: 10 Porcentaje: 2.77777777778
+user6_Exp
+user6_Train_user1
+user6_Test_user1
+ Total: 128 Aciertos: 8 Porcentaje: 6.25
+user6_Train_user2
+user2 point_4 Has no Candidate
+user6_Test_user2
+ Total: 128 Aciertos: 3 Porcentaje: 2.34375
+user6_Train_user3
+user6_Test_user3
+ Total: 128 Aciertos: 5 Porcentaje: 3.90625
+user6_Train_user4
+user6_Test_user4
+ Total: 128 Aciertos: 4 Porcentaje: 3.125
+user6_Train_user5
+user6_Test_user5
+ Total: 128 Aciertos: 3 Porcentaje: 2.34375
+user6_Train_user7
+user6_Test_user7
+ Total: 128 Aciertos: 2 Porcentaje: 1.5625
+user6_Train_user8
+user6_Test_user8
+ Total: 128 Aciertos: 5 Porcentaje: 3.90625
+user6_Train_user9
+user6_Test_user9
+ Total: 128 Aciertos: 5 Porcentaje: 3.90625
+user6_Train_user10
+user6_Test_user10
+ Total: 128 Aciertos: 6 Porcentaje: 4.6875
+user7_Exp
+user7_Train_user1
+user7_Test_user1
+ Total: 150 Aciertos: 2 Porcentaje: 1.33333333333
+user7_Train_user2
+user2 point_4 Has no Candidate
+user7_Test_user2
+ Total: 150 Aciertos: 0 Porcentaje: 0.0
+user7_Train_user3
+user7_Test_user3
+ Total: 150 Aciertos: 3 Porcentaje: 2.0
+user7_Train_user4
+user7_Test_user4
+ Total: 150 Aciertos: 2 Porcentaje: 1.33333333333
+user7_Train_user5
+user7_Test_user5
+ Total: 150 Aciertos: 2 Porcentaje: 1.33333333333
+user7_Train_user6
+user7_Test_user6
+ Total: 150 Aciertos: 3 Porcentaje: 2.0
+user7_Train_user8
+user7_Test_user8
+ Total: 150 Aciertos: 2 Porcentaje: 1.33333333333
+user7_Train_user9
+user7_Test_user9
+ Total: 150 Aciertos: 4 Porcentaje: 2.66666666667
+user7_Train_user10
+user7_Test_user10
+ Total: 150 Aciertos: 3 Porcentaje: 2.0
+user8_Exp
+user8_Train_user1
+user8_Test_user1
+ Total: 329 Aciertos: 0 Porcentaje: 0.0
+user8_Train_user2
+user2 point_4 Has no Candidate
+user8_Test_user2
+ Total: 329 Aciertos: 4 Porcentaje: 1.21580547112
+user8_Train_user3
+user8_Test_user3
+ Total: 329 Aciertos: 1 Porcentaje: 0.303951367781
+user8_Train_user4
+user8_Test_user4
+ Total: 329 Aciertos: 1 Porcentaje: 0.303951367781
+user8_Train_user5
+user8_Test_user5
+ Total: 329 Aciertos: 7 Porcentaje: 2.12765957447
+user8_Train_user6
+user8_Test_user6
+ Total: 329 Aciertos: 9 Porcentaje: 2.73556231003
+user8_Train_user7
+user8_Test_user7
+ Total: 329 Aciertos: 7 Porcentaje: 2.12765957447
+user8_Train_user9
+user8_Test_user9
+ Total: 329 Aciertos: 7 Porcentaje: 2.12765957447
+user8_Train_user10
+user8_Test_user10
+ Total: 329 Aciertos: 7 Porcentaje: 2.12765957447
+user9_Exp
+user9_Train_user1
+user9_Test_user1
+ Total: 357 Aciertos: 8 Porcentaje: 2.24089635854
+user9_Train_user2
+user2 point_4 Has no Candidate
+user9_Test_user2
+ Total: 357 Aciertos: 8 Porcentaje: 2.24089635854
+user9_Train_user3
+user9_Test_user3
+ Total: 357 Aciertos: 9 Porcentaje: 2.52100840336
+user9_Train_user4
+user9_Test_user4
+ Total: 357 Aciertos: 9 Porcentaje: 2.52100840336
+user9_Train_user5
+user9_Test_user5
+ Total: 357 Aciertos: 11 Porcentaje: 3.081232493
+user9_Train_user6
+user9_Test_user6
+ Total: 357 Aciertos: 10 Porcentaje: 2.80112044818
+user9_Train_user7
+user9_Test_user7
+ Total: 357 Aciertos: 14 Porcentaje: 3.92156862745
+user9_Train_user8
+user9_Test_user8
+ Total: 357 Aciertos: 15 Porcentaje: 4.20168067227
+user9_Train_user10
+user9_Test_user10
+ Total: 357 Aciertos: 14 Porcentaje: 3.92156862745
+user10_Exp
+user10_Train_user1
+user10_Test_user1
+ Total: 299 Aciertos: 18 Porcentaje: 6.02006688963
+user10_Train_user2
+user2 point_4 Has no Candidate
+user10_Test_user2
+ Total: 299 Aciertos: 13 Porcentaje: 4.34782608696
+user10_Train_user3
+user10_Test_user3
+ Total: 299 Aciertos: 23 Porcentaje: 7.69230769231
+user10_Train_user4
+user10_Test_user4
+ Total: 299 Aciertos: 22 Porcentaje: 7.35785953177
+user10_Train_user5
+user10_Test_user5
+ Total: 299 Aciertos: 15 Porcentaje: 5.01672240803
+user10_Train_user6
+user10_Test_user6
+ Total: 299 Aciertos: 15 Porcentaje: 5.01672240803
+user10_Train_user7
+user10_Test_user7
+ Total: 299 Aciertos: 12 Porcentaje: 4.01337792642
+user10_Train_user8
+user10_Test_user8
+ Total: 299 Aciertos: 9 Porcentaje: 3.01003344482
+user10_Train_user9
+user10_Test_user9
+ Total: 299 Aciertos: 10 Porcentaje: 3.34448160535

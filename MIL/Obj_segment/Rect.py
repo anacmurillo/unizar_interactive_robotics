@@ -31,6 +31,8 @@ class Rect(object):
 
     def size(self):
         return (self.right-self.left)*(self.bottom-self.top)
+    def cent(self):
+        return (self.right-self.left)/2,(self.bottom-self.top)/2
     def d_diag(self,i):
         return math.sqrt(math.pow(self.right-self.left,2)+pow(self.bottom-self.top,2))/i
 

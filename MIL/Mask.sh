@@ -1,5 +1,5 @@
-
-source tfenv/bin/activate
+#!/bin/env bash
+source /home/pazagra/tfp3/bin/activate
 export GLOG_minloglevel=2
-python3 tfenv/maskrcnn/Mask_RCNN/Get_P.py
+python3 /home/pazagra/tfp3/mask/Mask_RCNN/Get_P.py
 deactivate

@@ -1,0 +1,1663 @@
+name: ""
+op {
+  input: "image"
+  input: "conv1_1_w"
+  input: "conv1_1_b"
+  output: "conv1_1"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv1_1"
+  output: "conv1_1"
+  type: "Relu"
+}
+op {
+  input: "conv1_1"
+  input: "conv1_2_w"
+  input: "conv1_2_b"
+  output: "conv1_2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv1_2"
+  output: "conv1_2"
+  type: "Relu"
+}
+op {
+  input: "conv1_2"
+  output: "pool1_stage1"
+  type: "MaxPool"
+  arg {
+    name: "stride"
+    i: 2
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 2
+  }
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+  arg {
+    name: "legacy_pad"
+    i: 3
+  }
+}
+op {
+  input: "pool1_stage1"
+  input: "conv2_1_w"
+  input: "conv2_1_b"
+  output: "conv2_1"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv2_1"
+  output: "conv2_1"
+  type: "Relu"
+}
+op {
+  input: "conv2_1"
+  input: "conv2_2_w"
+  input: "conv2_2_b"
+  output: "conv2_2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv2_2"
+  output: "conv2_2"
+  type: "Relu"
+}
+op {
+  input: "conv2_2"
+  output: "pool2_stage1"
+  type: "MaxPool"
+  arg {
+    name: "stride"
+    i: 2
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 2
+  }
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+  arg {
+    name: "legacy_pad"
+    i: 3
+  }
+}
+op {
+  input: "pool2_stage1"
+  input: "conv3_1_w"
+  input: "conv3_1_b"
+  output: "conv3_1"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv3_1"
+  output: "conv3_1"
+  type: "Relu"
+}
+op {
+  input: "conv3_1"
+  input: "conv3_2_w"
+  input: "conv3_2_b"
+  output: "conv3_2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv3_2"
+  output: "conv3_2"
+  type: "Relu"
+}
+op {
+  input: "conv3_2"
+  input: "conv3_3_w"
+  input: "conv3_3_b"
+  output: "conv3_3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv3_3"
+  output: "conv3_3"
+  type: "Relu"
+}
+op {
+  input: "conv3_3"
+  input: "conv3_4_w"
+  input: "conv3_4_b"
+  output: "conv3_4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv3_4"
+  output: "conv3_4"
+  type: "Relu"
+}
+op {
+  input: "conv3_4"
+  output: "pool3_stage1"
+  type: "MaxPool"
+  arg {
+    name: "stride"
+    i: 2
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 2
+  }
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+  arg {
+    name: "legacy_pad"
+    i: 3
+  }
+}
+op {
+  input: "pool3_stage1"
+  input: "conv4_1_w"
+  input: "conv4_1_b"
+  output: "conv4_1"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv4_1"
+  output: "conv4_1"
+  type: "Relu"
+}
+op {
+  input: "conv4_1"
+  input: "conv4_2_w"
+  input: "conv4_2_b"
+  output: "conv4_2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv4_2"
+  output: "conv4_2"
+  type: "Relu"
+}
+op {
+  input: "conv4_2"
+  input: "conv4_3_w"
+  input: "conv4_3_b"
+  output: "conv4_3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv4_3"
+  output: "conv4_3"
+  type: "Relu"
+}
+op {
+  input: "conv4_3"
+  input: "conv4_4_w"
+  input: "conv4_4_b"
+  output: "conv4_4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv4_4"
+  output: "conv4_4"
+  type: "Relu"
+}
+op {
+  input: "conv4_4"
+  input: "conv5_1_w"
+  input: "conv5_1_b"
+  output: "conv5_1"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv5_1"
+  output: "conv5_1"
+  type: "Relu"
+}
+op {
+  input: "conv5_1"
+  input: "conv5_2_w"
+  input: "conv5_2_b"
+  output: "conv5_2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv5_2"
+  output: "conv5_2"
+  type: "Relu"
+}
+op {
+  input: "conv5_2"
+  input: "conv5_3_CPM_w"
+  input: "conv5_3_CPM_b"
+  output: "conv5_3_CPM"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 1
+  }
+  arg {
+    name: "kernel"
+    i: 3
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv5_3_CPM"
+  output: "conv5_3_CPM"
+  type: "Relu"
+}
+op {
+  input: "conv5_3_CPM"
+  input: "conv6_1_CPM_w"
+  input: "conv6_1_CPM_b"
+  output: "conv6_1_CPM"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv6_1_CPM"
+  output: "conv6_1_CPM"
+  type: "Relu"
+}
+op {
+  input: "conv6_1_CPM"
+  input: "conv6_2_CPM_w"
+  input: "conv6_2_CPM_b"
+  output: "conv6_2_CPM"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "conv6_2_CPM"
+  input: "conv5_3_CPM"
+  output: "concat_stage2"
+  output: "_concat_stage2_dims"
+  type: "Concat"
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+}
+op {
+  input: "concat_stage2"
+  input: "Mconv1_stage2_w"
+  input: "Mconv1_stage2_b"
+  output: "Mconv1_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv1_stage2"
+  output: "Mconv1_stage2"
+  type: "Relu"
+}
+op {
+  input: "Mconv1_stage2"
+  input: "Mconv2_stage2_w"
+  input: "Mconv2_stage2_b"
+  output: "Mconv2_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv2_stage2"
+  output: "Mconv2_stage2"
+  type: "Relu"
+}
+op {
+  input: "Mconv2_stage2"
+  input: "Mconv3_stage2_w"
+  input: "Mconv3_stage2_b"
+  output: "Mconv3_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv3_stage2"
+  output: "Mconv3_stage2"
+  type: "Relu"
+}
+op {
+  input: "Mconv3_stage2"
+  input: "Mconv4_stage2_w"
+  input: "Mconv4_stage2_b"
+  output: "Mconv4_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv4_stage2"
+  output: "Mconv4_stage2"
+  type: "Relu"
+}
+op {
+  input: "Mconv4_stage2"
+  input: "Mconv5_stage2_w"
+  input: "Mconv5_stage2_b"
+  output: "Mconv5_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv5_stage2"
+  output: "Mconv5_stage2"
+  type: "Relu"
+}
+op {
+  input: "Mconv5_stage2"
+  input: "Mconv6_stage2_w"
+  input: "Mconv6_stage2_b"
+  output: "Mconv6_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv6_stage2"
+  output: "Mconv6_stage2"
+  type: "Relu"
+}
+op {
+  input: "Mconv6_stage2"
+  input: "Mconv7_stage2_w"
+  input: "Mconv7_stage2_b"
+  output: "Mconv7_stage2"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv7_stage2"
+  input: "conv5_3_CPM"
+  output: "concat_stage3"
+  output: "_concat_stage3_dims"
+  type: "Concat"
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+}
+op {
+  input: "concat_stage3"
+  input: "Mconv1_stage3_w"
+  input: "Mconv1_stage3_b"
+  output: "Mconv1_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv1_stage3"
+  output: "Mconv1_stage3"
+  type: "Relu"
+}
+op {
+  input: "Mconv1_stage3"
+  input: "Mconv2_stage3_w"
+  input: "Mconv2_stage3_b"
+  output: "Mconv2_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv2_stage3"
+  output: "Mconv2_stage3"
+  type: "Relu"
+}
+op {
+  input: "Mconv2_stage3"
+  input: "Mconv3_stage3_w"
+  input: "Mconv3_stage3_b"
+  output: "Mconv3_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv3_stage3"
+  output: "Mconv3_stage3"
+  type: "Relu"
+}
+op {
+  input: "Mconv3_stage3"
+  input: "Mconv4_stage3_w"
+  input: "Mconv4_stage3_b"
+  output: "Mconv4_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv4_stage3"
+  output: "Mconv4_stage3"
+  type: "Relu"
+}
+op {
+  input: "Mconv4_stage3"
+  input: "Mconv5_stage3_w"
+  input: "Mconv5_stage3_b"
+  output: "Mconv5_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv5_stage3"
+  output: "Mconv5_stage3"
+  type: "Relu"
+}
+op {
+  input: "Mconv5_stage3"
+  input: "Mconv6_stage3_w"
+  input: "Mconv6_stage3_b"
+  output: "Mconv6_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv6_stage3"
+  output: "Mconv6_stage3"
+  type: "Relu"
+}
+op {
+  input: "Mconv6_stage3"
+  input: "Mconv7_stage3_w"
+  input: "Mconv7_stage3_b"
+  output: "Mconv7_stage3"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv7_stage3"
+  input: "conv5_3_CPM"
+  output: "concat_stage4"
+  output: "_concat_stage4_dims"
+  type: "Concat"
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+}
+op {
+  input: "concat_stage4"
+  input: "Mconv1_stage4_w"
+  input: "Mconv1_stage4_b"
+  output: "Mconv1_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv1_stage4"
+  output: "Mconv1_stage4"
+  type: "Relu"
+}
+op {
+  input: "Mconv1_stage4"
+  input: "Mconv2_stage4_w"
+  input: "Mconv2_stage4_b"
+  output: "Mconv2_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv2_stage4"
+  output: "Mconv2_stage4"
+  type: "Relu"
+}
+op {
+  input: "Mconv2_stage4"
+  input: "Mconv3_stage4_w"
+  input: "Mconv3_stage4_b"
+  output: "Mconv3_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv3_stage4"
+  output: "Mconv3_stage4"
+  type: "Relu"
+}
+op {
+  input: "Mconv3_stage4"
+  input: "Mconv4_stage4_w"
+  input: "Mconv4_stage4_b"
+  output: "Mconv4_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv4_stage4"
+  output: "Mconv4_stage4"
+  type: "Relu"
+}
+op {
+  input: "Mconv4_stage4"
+  input: "Mconv5_stage4_w"
+  input: "Mconv5_stage4_b"
+  output: "Mconv5_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv5_stage4"
+  output: "Mconv5_stage4"
+  type: "Relu"
+}
+op {
+  input: "Mconv5_stage4"
+  input: "Mconv6_stage4_w"
+  input: "Mconv6_stage4_b"
+  output: "Mconv6_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv6_stage4"
+  output: "Mconv6_stage4"
+  type: "Relu"
+}
+op {
+  input: "Mconv6_stage4"
+  input: "Mconv7_stage4_w"
+  input: "Mconv7_stage4_b"
+  output: "Mconv7_stage4"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv7_stage4"
+  input: "conv5_3_CPM"
+  output: "concat_stage5"
+  output: "_concat_stage5_dims"
+  type: "Concat"
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+}
+op {
+  input: "concat_stage5"
+  input: "Mconv1_stage5_w"
+  input: "Mconv1_stage5_b"
+  output: "Mconv1_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv1_stage5"
+  output: "Mconv1_stage5"
+  type: "Relu"
+}
+op {
+  input: "Mconv1_stage5"
+  input: "Mconv2_stage5_w"
+  input: "Mconv2_stage5_b"
+  output: "Mconv2_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv2_stage5"
+  output: "Mconv2_stage5"
+  type: "Relu"
+}
+op {
+  input: "Mconv2_stage5"
+  input: "Mconv3_stage5_w"
+  input: "Mconv3_stage5_b"
+  output: "Mconv3_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv3_stage5"
+  output: "Mconv3_stage5"
+  type: "Relu"
+}
+op {
+  input: "Mconv3_stage5"
+  input: "Mconv4_stage5_w"
+  input: "Mconv4_stage5_b"
+  output: "Mconv4_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv4_stage5"
+  output: "Mconv4_stage5"
+  type: "Relu"
+}
+op {
+  input: "Mconv4_stage5"
+  input: "Mconv5_stage5_w"
+  input: "Mconv5_stage5_b"
+  output: "Mconv5_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv5_stage5"
+  output: "Mconv5_stage5"
+  type: "Relu"
+}
+op {
+  input: "Mconv5_stage5"
+  input: "Mconv6_stage5_w"
+  input: "Mconv6_stage5_b"
+  output: "Mconv6_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv6_stage5"
+  output: "Mconv6_stage5"
+  type: "Relu"
+}
+op {
+  input: "Mconv6_stage5"
+  input: "Mconv7_stage5_w"
+  input: "Mconv7_stage5_b"
+  output: "Mconv7_stage5"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv7_stage5"
+  input: "conv5_3_CPM"
+  output: "concat_stage6"
+  output: "_concat_stage6_dims"
+  type: "Concat"
+  arg {
+    name: "order"
+    s: "NCHW"
+  }
+}
+op {
+  input: "concat_stage6"
+  input: "Mconv1_stage6_w"
+  input: "Mconv1_stage6_b"
+  output: "Mconv1_stage6"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv1_stage6"
+  output: "Mconv1_stage6"
+  type: "Relu"
+}
+op {
+  input: "Mconv1_stage6"
+  input: "Mconv2_stage6_w"
+  input: "Mconv2_stage6_b"
+  output: "Mconv2_stage6"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv2_stage6"
+  output: "Mconv2_stage6"
+  type: "Relu"
+}
+op {
+  input: "Mconv2_stage6"
+  input: "Mconv3_stage6_w"
+  input: "Mconv3_stage6_b"
+  output: "Mconv3_stage6"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv3_stage6"
+  output: "Mconv3_stage6"
+  type: "Relu"
+}
+op {
+  input: "Mconv3_stage6"
+  input: "Mconv4_stage6_w"
+  input: "Mconv4_stage6_b"
+  output: "Mconv4_stage6"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv4_stage6"
+  output: "Mconv4_stage6"
+  type: "Relu"
+}
+op {
+  input: "Mconv4_stage6"
+  input: "Mconv5_stage6_w"
+  input: "Mconv5_stage6_b"
+  output: "Mconv5_stage6"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 3
+  }
+  arg {
+    name: "kernel"
+    i: 7
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv5_stage6"
+  output: "Mconv5_stage6"
+  type: "Relu"
+}
+op {
+  input: "Mconv5_stage6"
+  input: "Mconv6_stage6_w"
+  input: "Mconv6_stage6_b"
+  output: "Mconv6_stage6"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+op {
+  input: "Mconv6_stage6"
+  output: "Mconv6_stage6"
+  type: "Relu"
+}
+op {
+  input: "Mconv6_stage6"
+  input: "net_output_w"
+  input: "net_output_b"
+  output: "net_output"
+  type: "Conv"
+  arg {
+    name: "stride"
+    i: 1
+  }
+  arg {
+    name: "pad"
+    i: 0
+  }
+  arg {
+    name: "kernel"
+    i: 1
+  }
+  arg {
+    name: "dilation"
+    i: 1
+  }
+}
+external_input: "image"
+external_input: "conv1_1_w"
+external_input: "conv1_1_b"
+external_input: "conv1_2_w"
+external_input: "conv1_2_b"
+external_input: "conv2_1_w"
+external_input: "conv2_1_b"
+external_input: "conv2_2_w"
+external_input: "conv2_2_b"
+external_input: "conv3_1_w"
+external_input: "conv3_1_b"
+external_input: "conv3_2_w"
+external_input: "conv3_2_b"
+external_input: "conv3_3_w"
+external_input: "conv3_3_b"
+external_input: "conv3_4_w"
+external_input: "conv3_4_b"
+external_input: "conv4_1_w"
+external_input: "conv4_1_b"
+external_input: "conv4_2_w"
+external_input: "conv4_2_b"
+external_input: "conv4_3_w"
+external_input: "conv4_3_b"
+external_input: "conv4_4_w"
+external_input: "conv4_4_b"
+external_input: "conv5_1_w"
+external_input: "conv5_1_b"
+external_input: "conv5_2_w"
+external_input: "conv5_2_b"
+external_input: "conv5_3_CPM_w"
+external_input: "conv5_3_CPM_b"
+external_input: "conv6_1_CPM_w"
+external_input: "conv6_1_CPM_b"
+external_input: "conv6_2_CPM_w"
+external_input: "conv6_2_CPM_b"
+external_input: "Mconv1_stage2_w"
+external_input: "Mconv1_stage2_b"
+external_input: "Mconv2_stage2_w"
+external_input: "Mconv2_stage2_b"
+external_input: "Mconv3_stage2_w"
+external_input: "Mconv3_stage2_b"
+external_input: "Mconv4_stage2_w"
+external_input: "Mconv4_stage2_b"
+external_input: "Mconv5_stage2_w"
+external_input: "Mconv5_stage2_b"
+external_input: "Mconv6_stage2_w"
+external_input: "Mconv6_stage2_b"
+external_input: "Mconv7_stage2_w"
+external_input: "Mconv7_stage2_b"
+external_input: "Mconv1_stage3_w"
+external_input: "Mconv1_stage3_b"
+external_input: "Mconv2_stage3_w"
+external_input: "Mconv2_stage3_b"
+external_input: "Mconv3_stage3_w"
+external_input: "Mconv3_stage3_b"
+external_input: "Mconv4_stage3_w"
+external_input: "Mconv4_stage3_b"
+external_input: "Mconv5_stage3_w"
+external_input: "Mconv5_stage3_b"
+external_input: "Mconv6_stage3_w"
+external_input: "Mconv6_stage3_b"
+external_input: "Mconv7_stage3_w"
+external_input: "Mconv7_stage3_b"
+external_input: "Mconv1_stage4_w"
+external_input: "Mconv1_stage4_b"
+external_input: "Mconv2_stage4_w"
+external_input: "Mconv2_stage4_b"
+external_input: "Mconv3_stage4_w"
+external_input: "Mconv3_stage4_b"
+external_input: "Mconv4_stage4_w"
+external_input: "Mconv4_stage4_b"
+external_input: "Mconv5_stage4_w"
+external_input: "Mconv5_stage4_b"
+external_input: "Mconv6_stage4_w"
+external_input: "Mconv6_stage4_b"
+external_input: "Mconv7_stage4_w"
+external_input: "Mconv7_stage4_b"
+external_input: "Mconv1_stage5_w"
+external_input: "Mconv1_stage5_b"
+external_input: "Mconv2_stage5_w"
+external_input: "Mconv2_stage5_b"
+external_input: "Mconv3_stage5_w"
+external_input: "Mconv3_stage5_b"
+external_input: "Mconv4_stage5_w"
+external_input: "Mconv4_stage5_b"
+external_input: "Mconv5_stage5_w"
+external_input: "Mconv5_stage5_b"
+external_input: "Mconv6_stage5_w"
+external_input: "Mconv6_stage5_b"
+external_input: "Mconv7_stage5_w"
+external_input: "Mconv7_stage5_b"
+external_input: "Mconv1_stage6_w"
+external_input: "Mconv1_stage6_b"
+external_input: "Mconv2_stage6_w"
+external_input: "Mconv2_stage6_b"
+external_input: "Mconv3_stage6_w"
+external_input: "Mconv3_stage6_b"
+external_input: "Mconv4_stage6_w"
+external_input: "Mconv4_stage6_b"
+external_input: "Mconv5_stage6_w"
+external_input: "Mconv5_stage6_b"
+external_input: "Mconv6_stage6_w"
+external_input: "Mconv6_stage6_b"
+external_input: "net_output_w"
+external_input: "net_output_b"
+external_output: "net_output"

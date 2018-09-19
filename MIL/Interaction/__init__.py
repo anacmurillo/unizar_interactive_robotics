@@ -1,1 +1,1 @@
-__all__ = ["Interaction_Recogn", "Masking","NMS","SVM","CNN","Interaction_Multiple","Evaluator"]
+__all__ = ["Interaction_Recogn", "Masking","NMS","SVM","Caffe2","Interaction_Multiple","Evaluator"]

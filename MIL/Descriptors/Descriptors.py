@@ -15,7 +15,7 @@ class Descriptors:
         # final = self.SuperPixel(final)
         final = RGB
         img1 = cv2.cvtColor(final,cv2.COLOR_BGR2GRAY)
-        sift = cv2.SIFT()
+        sift = cv2.xfeatures2d.SIFT_create()
         kp, descritors = sift.detectAndCompute(img1,None)
         if len(kp) < 2:
             return None,None
@@ -35,7 +35,7 @@ class Descriptors:
         # final = self.SuperPixel(RGB)
         final = RGB
         img1 = cv2.cvtColor(final,cv2.COLOR_BGR2GRAY)
-        surf = cv2.SURF(100)
+        surf = cv2.xfeatures2d.SURF_CREATE(100)
         self.n += 1
         kp, descritors = surf.detectAndCompute(img1,None)
         if len(kp) == 0:
@@ -56,7 +56,7 @@ class Descriptors:
 
     def ComputeORB(self, RGB, Depth):
         Gray = cv2.cvtColor(RGB, cv2.COLOR_BGR2GRAY)
-        detector = cv2.ORB(nfeatures=600,scaleFactor=1.2,nlevels=4,edgeThreshold=5,firstLevel=0,WTA_K=2,scoreType=cv2.ORB_HARRIS_SCORE,patchSize=5)
+        detector = cv2.ORB_create(nfeatures=600,scaleFactor=1.2,nlevels=4,edgeThreshold=5,firstLevel=0,WTA_K=2,scoreType=cv2.ORB_HARRIS_SCORE,patchSize=5)
         scene_keypoints = detector.detect(Gray)
         scene_keypoints, scene_descriptors = detector.compute(Gray, scene_keypoints)
         if len(scene_keypoints) == 0:

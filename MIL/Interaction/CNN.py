@@ -326,13 +326,13 @@ class skeleton:
             self.net.blobs['data'].data[...] = np.transpose(np.float32(imageToTest_padded[:, :, :, np.newaxis]),
                                                             (3, 2, 0, 1)) / 256 - 0.5
             output_blobs = self.net.forward()
-       
+       	    
             heatmap = np.transpose(np.squeeze(self.net.blobs[output_blobs.keys()[1]].data),
                                    (1, 2, 0))  # output 1 is heatmaps
             heatmap = cv.resize(heatmap, (0, 0), fx=self.model['stride'], fy=self.model['stride'],
                                 interpolation=cv.INTER_CUBIC)
             heatmap = heatmap[:imageToTest_padded.shape[0] - pad[2], :imageToTest_padded.shape[1] - pad[3], :]
-            heatmap = cv.resize(heatmap, (oriImg.shape[1], oriImg.shape[0]), interpolation=cv.INTER_CUBIC)
+            heatmap = cv.resize(heatmap, (oriImg.shape[1], oriImg.shape[0]),interpolation=cv.INTER_CUBIC)
 
             paf = np.transpose(np.squeeze(self.net.blobs[output_blobs.keys()[0]].data), (1, 2, 0))  # output 0 is PAFs
             paf = cv.resize(paf, (0, 0), fx=self.model['stride'], fy=self.model['stride'], interpolation=cv.INTER_CUBIC)

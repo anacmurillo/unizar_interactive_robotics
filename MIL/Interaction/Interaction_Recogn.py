@@ -1,7 +1,7 @@
 import math
 import os
 import timeit
-import CNN
+import Caffe2
 import cv2
 from NMS import nms
 import numpy as np
@@ -17,7 +17,7 @@ class Interaction_Recogn:
         mask=dep_mask.copy()
         if h:
             fd, imn = hog(dep, self.orientations, self.pixels_per_cell, self.cells_per_block,
-                          self.visualize, self.normalize)
+                          visualise=self.visualize)
         else:
             fd = []
         fgrid = np.array([])
@@ -54,9 +54,12 @@ class Interaction_Recogn:
             output = np.concatenate((HistB, HistG, HistR), axis=0)
         return output
 
-    def __init__(self,sizeHC,th,Skeleton):
+    def __del__(self):
+        del self.skeleton
+
+    def __init__(self,sizeHC,th,Skeleton,str):
         if Skeleton is None:
-              Skeleton = CNN.skeleton()
+              Skeleton = Caffe2.skeleton(str)
         self.model_path_HC = "Interaction/hand_HC_svm_"+sizeHC.__str__()+".model"
         self.model_path_HOG = "Interaction/hand_HOG_svm_"+sizeHC.__str__()+".model"
         self.save_path_r ="/home/iglu/catkin_ws/src/IL-pipeline/src/Hands/RGB/"

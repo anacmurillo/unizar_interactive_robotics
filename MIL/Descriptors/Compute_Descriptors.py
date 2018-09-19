@@ -7,7 +7,7 @@ class D_calculator():
         self.Descriptor = Descriptors.Descriptors()
         self.BoW = BoW.BoW("")
         self.BoW.loadBoW("Descriptors/BoW_ORB.pkl")
-        self.Fc7 = Alexnet.Alexnet()
+        # self.Fc7 = Alexnet.Alexnet()
 
     def calculate_D(self,RGB,Depth,Style):
         All_d = {}
@@ -28,8 +28,8 @@ class D_calculator():
                 descrip, keypoints = self.Descriptor.ComputeBRISK(RGB, Depth)
             elif i == 'SIFT':
                 descrip, keypoints = self.Descriptor.ComputeSIFT(RGB,Depth)
-            elif i == 'FC7':
-                descrip, keypoints = self.Fc7.ComputeFc7(RGB,Depth)
+            # elif i == 'FC7':
+                # descrip, keypoints = self.Fc7.ComputeFc7(RGB,Depth)
             if descrip is not None:
                 All_d[i] = descrip
         return All_d

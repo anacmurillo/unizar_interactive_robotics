@@ -1,18 +1,22 @@
 import math
 import os
 import time
-import CNN
 import cv2
 import numpy as np
 from Interaction import Interaction_Recogn,Masking,Evaluator
 
 class Mutiple_Interaction:
     def __init__(self):
-        self.Interaction = Interaction_Recogn.Interaction_Recogn(16,0.65,None)
-        self.Interaction_r = Interaction_Recogn.Interaction_Recogn(16,0.65,None)
+        self.Interaction = Interaction_Recogn.Interaction_Recogn(16,0.65,None,'right')
+        self.Interaction_r = Interaction_Recogn.Interaction_Recogn(16,0.65,None,'left')
         self.Masquerade = Masking.Masking()
         self.interactions = ["Point","Show"]
         self.Evaluator = Evaluator.Evaluator(self.interactions)
+
+    def __del__(self):
+        del self.Interaction
+        del self.Interaction_r
+
 
     def Calculate_Interaction(self,FM,Labels = None):
         def new_angle(Scena):
@@ -67,13 +71,16 @@ class Mutiple_Interaction:
                 theta = abs(theta)
                 return math.degrees(theta)
             return None
-        video = cv2.VideoWriter('Outputs/Videos/'+FM.user+"_"+FM.action+'.avi',cv2.cv.CV_FOURCC('D', 'I', 'V', 'X'), 25.0, (640, 480))
+        # video = cv2.VideoWriter('Outputs/Videos/'+FM.user+"_"+FM.action+'.avi',cv2.cv.CV_FOURCC('D', 'I', 'V', 'X'), 25.0, (640, 480))
+        elapsed = 0
+        i = 0
         for Scena in FM.Images:
+            start_t = time.time()
             dep_front = np.load(Scena.Depth_front).copy()
             # Masking Part
-            mask,move = self.Masquerade.Mask(cv2.imread(Scena.RGB_front),cv2.imread(Scena.Mask_front), dep_front)
+            mask,move = self.Masquerade.Mask(cv2.imread(Scena.RGB_front),np.zeros(cv2.imread(Scena.Mask_front).shape), dep_front)
             #Out = self.Interaction.search_one_image(cv2.imread(Scena.RGB_front), np.load(Scena.Depth_front), mask)
-            Out_right = self.Interaction.Class_One_Image(cv2.imread(Scena.RGB_front), np.load(Scena.Depth_front), mask,move,False, Scena.Skeleton)
+            Out_right = self.Interaction.Class_One_Image(cv2.imread(Scena.RGB_front), np.load(Scena.Depth_front), mask,move,False, None)
             Out_left = self.Interaction_r.Class_One_Image(cv2.imread(Scena.RGB_front), np.load(Scena.Depth_front), mask,move,True, Scena.Skeleton)
             Scena.Skeleton = self.Interaction.prvs_skel
             Scena.Values["Canvas"] = self.Interaction.prvs_canvas
@@ -102,13 +109,16 @@ class Mutiple_Interaction:
                 Scena.Values["Interaction_posibility"] = p
                 self.Evaluator.add_data(Class,p)
                 I = Scena.Values["Canvas"].copy()
-                cv2.putText(I,Class,(Center[1]-100,Center[0]-100),cv2.cv.CV_FONT_ITALIC,1,(255,0,0),2)
+                cv2.putText(I,Class,(Center[1]-100,Center[0]-100),cv2.FONT_ITALIC,1,(255,0,0),2)
                 cv2.circle(I,(Center[1],Center[0]),100,(0,0,255),3)
                 cv2.circle(I, (Center[1], Center[0]), 2, (0, 0, 255), 2)
-                video.write(I)
-            else:
-                video.write(cv2.imread(Scena.RGB_front))
-        video.release()
+                # video.write(I)
+            # else:
+                # video.write(cv2.imread(Scena.RGB_front))
+            elapsed+= time.time() - start_t
+            i+=1
+        print elapsed/i
+        # video.release()
         Result_n, Result_p, Class_p, Class_n, Total =self.Evaluator.calculate_output()
         FM.Values["Class_N"]=Class_n
         FM.Values["Result_N"]= Result_n

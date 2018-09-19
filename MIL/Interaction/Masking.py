@@ -3,11 +3,11 @@ import cv2
 
 class Masking:
     def __init__(self):
-        self.fgbg = cv2.BackgroundSubtractorMOG(50,5,0.5,1.0)
+        self.fgbg =cv2.createBackgroundSubtractorMOG2(50)
 
     def Mask(self,RGB,Mask,dep):
         # BACKGROUND REMOVAL
-        mask_back = self.fgbg.apply(RGB, 0.01)
+        mask_back = self.fgbg.apply(RGB, learningRate=0.01)
         mask_back = np.array(mask_back)
         mask_back = mask_back / 255
 

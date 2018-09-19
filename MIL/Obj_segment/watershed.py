@@ -77,6 +77,7 @@ def Sp_Water(front,img,dim,top):
 
         # draw a circle enclosing the object
         ((x, y), r) = cv2.minEnclosingCircle(c)
+        cv2.circle(image, (int(x), int(y)), int(r), (0, 255, 0), 2)
         if r <= 20 or r >= 60:
             continue
         x = int(x+dim[0])
@@ -87,7 +88,7 @@ def Sp_Water(front,img,dim,top):
         # print x.__str__()+" "+y.__str__()+" "+r.__str__()
         # print p1
         # print p2
-        # cv2.circle(image, (int(x), int(y)), int(r), (0, 255, 0), 2)
+
         # cv2.putText(image, "#{}".format(label), (int(x) - 10, int(y)),
         #             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
         P1 = Obj_segment.Rect.Point( x-int(r),y-int(r))
