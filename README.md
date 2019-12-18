@@ -1,3 +1,9 @@
+MIL:
+  - Contains the code for the Incremental Learning from human robot interaction (In development)
+  
+MIL_Robot:
+  - Contains the code adapted to be launch in a robot with less computing power.
+
 # unizar_interactive_robotics
 
 - Related to this project:
